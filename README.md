@@ -27,7 +27,7 @@ console.groupKey(key,data...);
 ```
 Estos datos se acumulan hasta que se ejecute console.groupKeyEnd;
 
-console.groupKeyEnd(key,ob...);
+console.groupKeyEnd(key,data...);
 ```
 @Params({
     key:'index'// Codigo del group,
