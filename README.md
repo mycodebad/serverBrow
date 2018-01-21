@@ -52,7 +52,8 @@ El metodo groupKeyEnd se comunica con el socket y manda los datos con la siguien
 
 El cliente se conecta en el puerto 8888
 y se conecta en los canales,
-
-"log" => console.log(),console.info(),console.error()
-"middleware" => Api Rest,
-"group" => console.groupKeyEnd();
+```
+    "log" :console.log(),console.info(),console.error()'
+    "middleware" :"Api Rest",
+    "group":" console.groupKeyEnd()"
+```
