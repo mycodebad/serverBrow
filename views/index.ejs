@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <script>
+        var socket = io('http://localhost:8888');
+
+        socket.on('log',function (data) {
+            console.log('log');
+            console.dir(data);            
+        });
+
+        socket.on('middleware',function (data) {
+            console.log('middleware')
+            console.dir(data);                        
+        });
+
+        socket.on('group',function (data) {
+            console.log('group')
+            console.dir(data);                        
+        });
+    </script>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+  </body>
+</html>
