@@ -1,7 +1,20 @@
 
 
-## Metodos
 
+### Ejemplos
+
+Los ejemplos del uso de la consola y las pruebas de los q puede devolver estan en las rutas por el metodo GET
+```
+/console/log-single     =>  log de un parametro simple
+/console/log-object     =>  log de un objecto
+/console/log-array      =>  log de un array
+/console/log-multiple   =>  log de varios parametros en un solo console
+/console/error          =>  log emite el error ocurrido en el proceso
+/console/group          =>  log group ,emitira un conjunto de logs hasta q se concrete determinado proceso en este caso un factorial 
+```
+Nota .- la ruta console/group ....  puede recibir un parametro console/group?number=3 , Este para poder sacar el factorial 
+del parametro dado si no se lo coloca por defecto se toma el valor de 8,
+## Metodos
 ### Servidor
 
 En este momento estan integrados los metodos 
@@ -47,7 +60,6 @@ El metodo groupKeyEnd se comunica con el socket y manda los datos con la siguien
         "data" : [] // todos los console.groups anidados con el mismo group,
     }
 ```
-
 ### Cliente
 
 El cliente se conecta en el puerto 8888
