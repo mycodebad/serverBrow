@@ -1,2 +1,14 @@
 node_modules/
 /node_modules
+
+
+
+
+.idea/inspectionProfiles/
+.idea/modules.xml
+.idea/serverBrow.iml
+.idea/workspace.xml
+views-react/build
+views-react/node_modules
+
+
