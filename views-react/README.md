@@ -50,6 +50,6 @@ See the section about [deployment](#deployment) for more information.
 ### `npm run start_build`
 
 Runs the app in the production builder mode.<br>
-Open [http://localhost:3000](http://localhost:5000) to view it in the browser.
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
 
