@@ -23,7 +23,7 @@ const NotFound = () => {
                 Sorry, an error has occured, Requested page not found!
               </div>
               <div className="error-actions">
-                <Link className="btn btn-primary btn-lg" to={'/'}>Return to home</Link>
+                <Link className="btn btn-primary btn-lg" to={'/_console'}>Return to home</Link>
                 <a href="https://github.com/mycodebad" className="btn btn-default btn-lg">
                   <span className="glyphicon glyphicon-envelope" /> Contact Support
                 </a>

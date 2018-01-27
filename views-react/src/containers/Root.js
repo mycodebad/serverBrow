@@ -5,6 +5,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
+  Redirect,
   Switch
 } from 'react-router-dom';
 
@@ -18,6 +19,9 @@ const Root = (props) => {
     <Router>
       <App>
         <Switch>    
+          <Route exact path="/" render={() => (
+            <Redirect to="/_console" />
+          )}/>
           <Route exact path="/_console" component={Home} />
           <Route path="*" component={NotFound} />
         </Switch>
