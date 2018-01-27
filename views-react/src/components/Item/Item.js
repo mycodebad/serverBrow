@@ -6,6 +6,7 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import ReactJson from 'react-json-view';
 import './Item.scss';
 
 class Item extends Component {
@@ -15,11 +16,36 @@ class Item extends Component {
       type: this.props.type,
       line: this.props.line,
       nameFile: this.props.nameFile,
-      content: this.props.content
+      content: (this.props.content).toString()
     }
   }
+  componentWillReceiveProps (nextprops) {
+    if (nextprops.type !== undefined && nextprops.type !== null) {
+      this.setState({ type: nextprops.type });
+    }
+    if (nextprops.line !== undefined && nextprops.line !== null) {
+      this.setState({ line: nextprops.line });
+    }
+    if (nextprops.nameFile !== undefined && nextprops.nameFile !== null) {
+      this.setState({ nameFile: nextprops.nameFile });
+    }
+    if (nextprops.content !== undefined && nextprops.content !== null) {
+      this.setState({ content: nextprops.content });
+    }
+  }
+
+  convertContent () {
+    let { content } = this.state;
+    let valor = JSON.parse(content);
+    if (typeof valor === 'object') {
+      return <ReactJson src={valor} />;
+    } else {
+      return <p>{content}</p>;
+    }
+  }
+
   render() {
-    let { type, line, nameFile, content } = this.state;
+    let { type, line, nameFile } = this.state;
     return (
       <div className="containerItem">
         <div className="item">
@@ -33,7 +59,7 @@ class Item extends Component {
             </div>
             <div className="col-11 content">
               <h5>{type}</h5>
-              <p>{content}</p>
+              {this.convertContent()}
             </div>
           </div>
         </div>
@@ -44,14 +70,15 @@ class Item extends Component {
 
 Item.propTypes = {
   type: PropTypes.string,
-  line: PropTypes.number,
+  line: PropTypes.string,
+  nameFile: PropTypes.string,
   content: PropTypes.string
 };
 
 
 Item.defaultProps = {
   type: 'Info',
-  line: 250,
+  line: '0.0',
   nameFile: 'app.js',
   content: 'Now that we know who you are, I know who I am. I\'m not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain\'s going to be? He\'s the exact opposite of the hero. And most times they\'re friends, like you and me! I should\'ve known way back when... You know why, David? Because of the kids. They called me Mr Glass.'
 };
