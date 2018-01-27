@@ -18,7 +18,7 @@ const Root = (props) => {
     <Router>
       <App>
         <Switch>    
-          <Route exact path="/" component={Home} />
+          <Route exact path="/_console" component={Home} />
           <Route path="*" component={NotFound} />
         </Switch>
       </App>

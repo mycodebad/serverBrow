@@ -2,7 +2,8 @@ var express = require('express'),
     router = express.Router();
 var path = require('path');
 require('./console');
-module.exports=function(app,eventEmitter){     
+module.exports=function(app,eventEmitter){  
+    let pathRoute='/_console';
     let _skip=(req, res, data)=>{
         var request={
             body:   Object.keys(req.body).length==0 ?   null : req.body,
@@ -36,6 +37,27 @@ module.exports=function(app,eventEmitter){
         };
         next();
     }
-    
-    app.use(_responseBody);    
+
+    let _logErrors= (err, req, res, next) =>{
+        console.error(err.stack);
+        next(err)
+    }
+
+    router.get('/',function (req,res) {
+        res.sendFile('../views-react/build/index.html');
+    });
+    console.log(path.join(__dirname, '../views-react/build/'));
+    app.use(pathRoute,express.static(path.join(__dirname, '../views-react/build/')));
+    app.use(pathRoute,_logErrors,router);
+    app.use(_responseBody);   
+    app.all('*',( req, res, next)=>{
+        // console.log(req.originalUrl)
+        let typeFile = req.originalUrl.split('.');
+        // console.log(typeFile)
+        if(typeFile[1]!='js'){
+            next();            
+        }   
+        // next();     
+    })
+    // app.use(_logErrors); 
 };
