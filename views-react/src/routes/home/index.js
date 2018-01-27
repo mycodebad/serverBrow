@@ -41,7 +41,7 @@ class Home extends Component {
 
     this.formatData(Data)
     .then(newFormatData => {
-      items.push(newFormatData);
+      items.unshift(newFormatData);
       setTimeout(() => {
         this.refs.ListaConsolas.setState({
           items: items

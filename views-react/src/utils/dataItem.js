@@ -1,3 +1,4 @@
+
 /**
  * @author  Guillermo David Paredes Torrez, https://github.com/GuillermoParedes
  * @email  gdavid.ptorrez@gmail.com
@@ -11,6 +12,7 @@ class dataItem {
       this.line = this.getLine(Data.line);
       this.nameFile = this.getNameFile(Data.line);
       this.content = JSON.stringify(Data.data);
+      this.routeFile = this.getRouteFile(Data.line);
     }
 
     /**
@@ -27,9 +29,9 @@ class dataItem {
      * @description Return Number line logger
      * @param {*} Line 
      */
-    getLine (Line = 0) {
+    getLine (Line = '0') {
       console.log('getLine', Line);
-      if (Line !== 0) {
+      if (Line !== '0') {
         try {
           let _lastElement = Line.split('/').pop();    
           _lastElement = _lastElement.split(':');
@@ -45,6 +47,23 @@ class dataItem {
       }
     }
     
+    getRouteFile (RouteFile = '') {
+      console.log('getRouteFile', RouteFile);
+      try {
+        if (RouteFile !== '') {
+          let _routeFile = _.head(RouteFile.split(':'));
+          _routeFile = _routeFile.split('/');
+          _routeFile.pop();
+          _routeFile = _routeFile.join('/');
+          return _routeFile;
+        } else {
+          return ''
+        }
+      } catch (e) {
+        return ''
+      }
+      
+    }
 }
 
 module.exports = dataItem;

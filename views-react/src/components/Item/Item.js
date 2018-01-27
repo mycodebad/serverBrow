@@ -16,7 +16,8 @@ class Item extends Component {
       type: this.props.type,
       line: this.props.line,
       nameFile: this.props.nameFile,
-      content: (this.props.content).toString()
+      content: this.props.content,
+      routeFile: this.props.routeFile
     }
   }
   componentWillReceiveProps (nextprops) {
@@ -32,6 +33,9 @@ class Item extends Component {
     if (nextprops.content !== undefined && nextprops.content !== null) {
       this.setState({ content: nextprops.content });
     }
+    if (nextprops.routeFile !== undefined && nextprops.routeFile !== null) {
+      this.setState({ routeFile: nextprops.routeFile });
+    }
   }
 
   convertContent () {
@@ -45,7 +49,7 @@ class Item extends Component {
   }
 
   render() {
-    let { type, line, nameFile } = this.state;
+    let { type, line, nameFile, routeFile } = this.state;
     return (
       <div className="containerItem">
         <div className="item">
@@ -59,6 +63,7 @@ class Item extends Component {
             </div>
             <div className="col-11 content">
               <h5>{type}</h5>
+              <p><strong> Route File</strong>: {routeFile}</p>
               {this.convertContent()}
             </div>
           </div>
@@ -72,7 +77,8 @@ Item.propTypes = {
   type: PropTypes.string,
   line: PropTypes.string,
   nameFile: PropTypes.string,
-  content: PropTypes.string
+  content: PropTypes.string,
+  routeFile: PropTypes.string
 };
 
 
@@ -80,7 +86,8 @@ Item.defaultProps = {
   type: 'Info',
   line: '0.0',
   nameFile: 'app.js',
-  content: 'Now that we know who you are, I know who I am. I\'m not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain\'s going to be? He\'s the exact opposite of the hero. And most times they\'re friends, like you and me! I should\'ve known way back when... You know why, David? Because of the kids. They called me Mr Glass.'
+  content: 'Now that we know who you are, I know who I am. I\'m not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain\'s going to be? He\'s the exact opposite of the hero. And most times they\'re friends, like you and me! I should\'ve known way back when... You know why, David? Because of the kids. They called me Mr Glass.',
+  routeFile: '/home/Codersign'
 };
 
 export default Item;
