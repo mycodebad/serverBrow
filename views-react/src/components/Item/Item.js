@@ -54,14 +54,14 @@ class Item extends Component {
       <div className="containerItem">
         <div className="item">
           <div className="row">
-            <div className="col-1 date-holder text-center">
+            <div className="col-2 date-holder text-center">
               <div className="icon"><i className="fa fa-code" /></div>
               <div className="date">
                 <span>{line}</span> <br />
-                <span className="text-info">{nameFile}</span>
+                <span className="badge badge-primary text-white">{nameFile}</span>
               </div>
             </div>
-            <div className="col-11 content">
+            <div className="col-10 content">
               <h5>{type}</h5>
               <p><strong> Route File</strong>: {routeFile}</p>
               {this.convertContent()}
