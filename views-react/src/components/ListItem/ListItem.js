@@ -31,7 +31,6 @@ class ListItem extends Component {
    */
   renderItems () {
     let { items } = this.state;
-    console.log('renderItems', items);
     return _.map(items, pItemData => {
       return <Item {...pItemData} key={uuid.v4()} />  
     })
