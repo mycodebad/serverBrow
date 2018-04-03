@@ -1,5 +1,5 @@
 {
-  "name": "hello-react-app",
+  "name": "views-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -103,5 +103,24 @@
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
     "serve": "^6.4.8"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mycodebad/serverBrow.git"
+  },
+  "keywords": [
+    "React",
+    "ReactJS",
+    "Sass",
+    "Bootstrap",
+    "Css3"
+  ],
+  "author": "Guillermo David Paredes Torrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mycodebad/serverBrow/issues"
+  },
+  "homepage": "https://github.com/mycodebad/serverBrow#readme"
 }
