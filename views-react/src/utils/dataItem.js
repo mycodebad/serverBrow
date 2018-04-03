@@ -9,6 +9,9 @@ var _ = require('lodash');
 class dataItem {
     constructor(Data) {
       this.type = Data.type;
+      if (Data.group !== undefined && Data.group !== null) {
+        this.type = Data.type + ':' + Data.group;
+      }
       this.line = this.getLine(Data.line);
       this.nameFile = this.getNameFile(Data.line);
       this.content = JSON.stringify(Data.data);
@@ -30,7 +33,6 @@ class dataItem {
      * @param {*} Line 
      */
     getLine (Line = '0') {
-      console.log('getLine', Line);
       if (Line !== '0') {
         try {
           let _lastElement = Line.split('/').pop();    
@@ -47,8 +49,10 @@ class dataItem {
       }
     }
     
+    /**
+     * @description Return Route file
+     */
     getRouteFile (RouteFile = '') {
-      console.log('getRouteFile', RouteFile);
       try {
         if (RouteFile !== '') {
           let _routeFile = _.head(RouteFile.split(':'));

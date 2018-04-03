@@ -6,6 +6,7 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import _ from 'lodash';
 import './home.scss';
 import ListItem from '../../components/ListItem/ListItem'
 import io from 'socket.io-client';
@@ -33,12 +34,15 @@ class Home extends Component {
     socket.on('middleware', (data) => this.onMiddleware(this, data));
     socket.on('group', (data) => this.onGroup(this, data));
   }
-  onLogger (Context, Data) {
-    console.log('onLogger');
-    console.log('Context', Context);
-    console.log('Data', Data);
-    let { items } = this.refs.ListaConsolas.state;
 
+  /**
+   * @description Function that displays each of the consoles that are printed on the server
+   * @param {*} Context 
+   * @param {*} Data 
+   * @param {*} Type 
+   */
+  onConsoleBrow (Context, Data, Type) {
+    let { items } = this.refs.ListaConsolas.state;
     this.formatData(Data)
     .then(newFormatData => {
       items.unshift(newFormatData);
@@ -53,24 +57,49 @@ class Home extends Component {
     });
 
   }
+  
+  /**
+   * @description Specific source for consoles type: console.log
+   * @param {*} Context 
+   * @param {*} Data 
+   */
+  onLogger (Context, Data) {
+    console.log('onLogger');
+    console.log('Context', Context);
+    console.log('Data', Data);
+    this.onConsoleBrow(Context, Data, 'info');
+  }
 
+  /**
+   * @description Specific source for consoles type: middleware
+   * @param {*} Context 
+   * @param {*} Data 
+   */
   onMiddleware (Context, Data) {
     console.log('onMiddleware');
     console.log('Context', Context);
     console.log('Data', Data);
   }
 
+  /**
+   * @description Specific source for consoles type: console.groupKey
+   * @param {*} Context 
+   * @param {*} Data 
+   */
   onGroup (Context, Data) {
     console.log('onGroup');
-    console.log('Context', Context);
-    console.log('Data', Data);
+    _.forEach(Data.data, (LogItem , LogKey) => {
+      this.onConsoleBrow(this, LogItem, 'group');
+    })
   }
 
+  /**
+   * @description Return new format for data
+   * @param {*} Data 
+   */
   formatData (Data) {
-    console.log('formatData', Data);
     return new Promise((resolve, reject) => {
        let newDataFormat = new dataItem(Data);
-       console.log('newDataFormat', newDataFormat);
        if (newDataFormat) {
         resolve(newDataFormat)
        } else {
