@@ -66,9 +66,6 @@ class Home extends Component {
   onGroup (Context, Data) {
     console.log('onGroup===>', Data);
     this.onConsoleBrow(this, Data, 'group');
-    // _.forEach(Data.data, (LogItem , LogKey) => {
-    //   this.onConsoleBrow(this, LogItem, 'group');
-    // })
   }
 
   /**
@@ -79,24 +76,18 @@ class Home extends Component {
    */
   onConsoleBrow (Context, Data, Type) {
     let { items } = this.refs.ListaConsolas.state;
-    if (Type !== 'group') {
-      this.formatData(Data)
-      .then(newFormatData => {
-        items.unshift(newFormatData);
-        setTimeout(() => {
-          this.refs.ListaConsolas.setState({
-            items: items
-          })
-        }, 1000)
-      })
-      .catch(err  => {
-        console.log('promise failed', err);
-      });
-  
-    } else {
-      console.log('mostrando grupos');
-    }
-    
+    this.formatData(Data)
+    .then(newFormatData => {
+      items.unshift(newFormatData);
+      setTimeout(() => {
+        this.refs.ListaConsolas.setState({
+          items: items
+        })
+      }, 1000)
+    })
+    .catch(err  => {
+      console.log('promise failed', err);
+    });
   }
   
   /**
@@ -116,7 +107,10 @@ class Home extends Component {
     });
   }
 
-
+  /**
+   * @description Clean Prop Item of Component
+   * @param {*} pRef 
+   */
   cleanListParent (pRef) {
     console.log("cleanListParent", pRef);
     this.refs[pRef].setState({
