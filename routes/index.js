@@ -6,23 +6,32 @@ let external = require('./external');
 let cons = require('../consoleBrow/test');
 router.get('/', function(req, res, next) {
   console.groupKey('index',"Adrian Pedro");
-  console.log('asdfasdf');
-  console.log('pppppp');
-  console.log('2222222');
-  cons();
+  // console.log('asdfasdf');
+  // console.log('pppppp');
+  // console.log('2222222');
+  // cons();
   console.groupKey('index',"Zelada Torrez");
-  
-  result('hola Adios'); 
+  console.groupKeyEnd('index');
+  // result('hola Adios'); 
 
-  setTimeout(()=>{
-    console.groupKey('index',"Imilla","Pascual","Negrito");
-    // console.groupKeyEnd('index');        
-    external();
-  },3000)
+  // setTimeout(()=>{
+  //   console.groupKey('index',"Imilla","Pascual","Negrito");
+  //   // console.groupKeyEnd('index');        
+  //   external();
+  // },3000)
   res.render('index', { title: 'Express' });  
 });
 
 router.get('/data', function(req, res, next) {
+  console.log('error alguno');
+  console.groupKey('data',"Arnol");
+  console.groupKey('data',"Arnol");
+  console.groupKey('data',"Arnol");
+  console.groupKey('data',"Arnol");
+  console.groupKey('data',"Arnol");
+  console.groupKey('data',"Arnol");
+  console.groupKey('data',"Arnol");
+  console.groupKeyEnd('data');
   res.json({
     name:'Adrian',
     lastName:'Zelada Torrez'
