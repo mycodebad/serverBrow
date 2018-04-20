@@ -36,29 +36,6 @@ class Home extends Component {
   }
 
   /**
-   * @description Function that displays each of the consoles that are printed on the server
-   * @param {*} Context 
-   * @param {*} Data 
-   * @param {*} Type 
-   */
-  onConsoleBrow (Context, Data, Type) {
-    let { items } = this.refs.ListaConsolas.state;
-    this.formatData(Data)
-    .then(newFormatData => {
-      items.unshift(newFormatData);
-      setTimeout(() => {
-        this.refs.ListaConsolas.setState({
-          items: items
-        })
-      }, 1000)
-    })
-    .catch(err  => {
-      console.log('promise failed', err);
-    });
-
-  }
-  
-  /**
    * @description Specific source for consoles type: console.log
    * @param {*} Context 
    * @param {*} Data 
@@ -87,12 +64,32 @@ class Home extends Component {
    * @param {*} Data 
    */
   onGroup (Context, Data) {
-    console.log('onGroup');
-    _.forEach(Data.data, (LogItem , LogKey) => {
-      this.onConsoleBrow(this, LogItem, 'group');
-    })
+    console.log('onGroup===>', Data);
+    this.onConsoleBrow(this, Data, 'group');
   }
 
+  /**
+   * @description Function that displays each of the consoles that are printed on the server
+   * @param {*} Context 
+   * @param {*} Data 
+   * @param {*} Type 
+   */
+  onConsoleBrow (Context, Data, Type) {
+    let { items } = this.refs.ListaConsolas.state;
+    this.formatData(Data)
+    .then(newFormatData => {
+      items.unshift(newFormatData);
+      setTimeout(() => {
+        this.refs.ListaConsolas.setState({
+          items: items
+        })
+      }, 1000)
+    })
+    .catch(err  => {
+      console.log('promise failed', err);
+    });
+  }
+  
   /**
    * @description Return new format for data
    * @param {*} Data 
@@ -110,13 +107,24 @@ class Home extends Component {
     });
   }
 
+  /**
+   * @description Clean Prop Item of Component
+   * @param {*} pRef 
+   */
+  cleanListParent (pRef) {
+    console.log("cleanListParent", pRef);
+    this.refs[pRef].setState({
+      items: []
+    })
+  }
+
   render() {
     return (
       <div className="containerHome">
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-              <ListItem ref='ListaConsolas' title={'Lista de Consolas'} />
+              <ListItem ref='ListaConsolas' title={'Lista de Consolas'} cleanList={() => this.cleanListParent('ListaConsolas')} />
             </div>
             <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
               {<ListItem ref='ListaRestApi' title={'API REST'} />}

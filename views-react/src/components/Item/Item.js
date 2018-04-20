@@ -19,7 +19,10 @@ class Item extends Component {
       content: this.props.content,
       routeFile: this.props.routeFile
     }
+    this.renderIndividually = this.renderIndividually.bind(this);
+    this.renderGrouped = this.renderGrouped.bind(this);
   }
+
   componentWillReceiveProps (nextprops) {
     if (nextprops.type !== undefined && nextprops.type !== null) {
       this.setState({ type: nextprops.type });
@@ -38,6 +41,9 @@ class Item extends Component {
     }
   }
 
+  /**
+   * @description Converter data to JSON component
+   */
   convertContent () {
     let { content } = this.state;
     let valor = JSON.parse(content);
@@ -48,7 +54,16 @@ class Item extends Component {
     }
   }
 
-  render() {
+  render () {
+    let { type } = this.state;
+    if (type.indexOf("group") >= 0) {
+      return this.renderGrouped();
+    } else {
+      return this.renderIndividually();
+    }
+  }
+
+  renderIndividually () {
     let { type, line, nameFile, routeFile } = this.state;
     return (
       <div className="containerItem">
@@ -71,6 +86,25 @@ class Item extends Component {
       </div>
     );
   }
+
+  renderGrouped () {
+    let { type, line, nameFile, routeFile } = this.state;
+    return (
+      <div className="containerItem">
+        <div className="item">
+          <div className="row">
+            <div className="col-2 date-holder text-center">
+              <div className="icon"><i className="fa fa-code" /></div>
+            </div>
+            <div className="col-10 content">
+              <h5>{type}</h5>
+              {this.convertContent()}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 Item.propTypes = {
@@ -83,11 +117,11 @@ Item.propTypes = {
 
 
 Item.defaultProps = {
-  type: 'Info',
+  type: 'log',
   line: '0.0',
   nameFile: 'app.js',
-  content: 'Esto es un ejemplo.',
-  routeFile: '/home/Codersign'
+  content: 'This is sample.',
+  routeFile: '/home/MyCodeBad'
 };
 
 export default Item;

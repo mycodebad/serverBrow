@@ -14,5 +14,9 @@ html {
     background: url("/img/background.jpg");
     background-size: cover;
   }  
+
+  .string-value {
+    word-break: break-all !important;
+  }
 }
 
