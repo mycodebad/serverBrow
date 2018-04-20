@@ -1,36 +1,30 @@
 let socket = require('socket.io');
-let file = require('./adminFiles')();
+let admFile = require('./adminFiles');
 
-module.exports = function (eventEmitter){    
+module.exports = function (eventEmitter,nameDb){    
     let io = socket(8888);
-    file.read('log.json').then((data)=>{
-        console.warn("data");
-        console.warn(data);        
-    }).catch((e)=>{
-        console.warn("error");
-        console.warn(e);  
-    })    
+    let file = admFile(nameDb);
 
-    eventEmitter.on('log',(data)=>{            
-        // data.id = Date.now();
-        // io.sockets.emit('log', data);     
-        file.update('log.json',data).then((d)=>{
-            console.warn("data");
-            console.warn(d);  
-            data.id = Date.now();
-            io.sockets.emit('log', data);          
-        }).catch((e)=>{
-            console.warn("error");
-            console.warn(e);  
-        })      
+    eventEmitter.on('log',(data)=>{                    
+        _writeFile('log', data);        
     });
 
-    eventEmitter.on('middleware',(data)=>{        
-        io.sockets.emit('middleware', data);
+    eventEmitter.on('middleware',(data)=>{              
+        _writeFile('middleware', data);
     });
 
-    eventEmitter.on('group',(data)=>{        
-        io.sockets.emit('group', data);
+    eventEmitter.on('group',(data)=>{             
+        _writeFile('group', data);
     });
+
+    let _writeFile=(emitKey,data)=>{
+        data.id = Date.now();
+        if(emitKey=='middleware'){
+            file.middleware(data);   
+        }else{
+            file.write(data);   
+        }        
+        io.sockets.emit(emitKey, data);
+    }
 
 }

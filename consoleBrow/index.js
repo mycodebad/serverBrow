@@ -3,9 +3,9 @@ let console = require('./console');
 let socket = require('./socket');
 let middleware = require('./middleware');
 
-module.exports = function(app){
+module.exports = function(app,nameDb){
     let eventEmitter = new EventEmitter();
     middleware(app,eventEmitter);
     console(eventEmitter);
-    socket(eventEmitter);
+    socket(eventEmitter,nameDb);
 }

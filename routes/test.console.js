@@ -26,6 +26,9 @@ router.get('/log-object',function(req,res,next){
         ]
       });
 
+    console.log('data1')
+    console.log('data2')
+
     res.json({
         status:'Test Console.log Object'
     });
