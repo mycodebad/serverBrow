@@ -32,10 +32,10 @@
         
 
         setTimeout(()=>{
-            socket.emit('rangedate',{
-                initial:1524274173200,
-                ending:1524274177000
-            });
+            // socket.emit('rangedate',{
+            //     initial:1524274173200,
+            //     ending:1524274177000
+            // });
             listInterval();
 
         },1000);
@@ -47,7 +47,7 @@
                 socket.emit('list',{
                     page:page,
                     limit:3,
-                    type:'error'
+                    type:'group'
                 });
                 page++;
                 if(page>=3){

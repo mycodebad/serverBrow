@@ -65,7 +65,50 @@ El metodo groupKeyEnd se comunica con el socket y manda los datos con la siguien
 El cliente se conecta en el puerto 8888
 y se conecta en los canales,
 ```
-    "log" :console.log(),console.info(),console.error()'
-    "middleware" :"Api Rest",
-    "group":" console.groupKeyEnd()"
+    "log" : "console.log(),console.info(),console.error()"
+    "middleware" : "Api Rest",
+    "group" : "console.groupKeyEnd()"
+
+```
+
+###Interacción
+
+Para una mejor interacción con el cliente se proporciona el servicio de paginación
+
+El cliente puede mandar los datos al canal:
+```
+    "list":{
+        "limit":"Cantidad de datos por página",
+        "page":"Página actual",
+        "type":"tipo de log que se enviaran (default= 'all')"
+    }
+```
+
+Ejemplo
+
+```
+    socket.emit("list",{
+        limit:3,
+        page:0,
+        type:"all" // podria ser tambien - "error", "log", "group"
+    })
+```
+El resultado de esta consulta se enviara a un canal de escucha llamado "list-pagination"
+
+```
+    socket.on("list-pagination",(response)=>{
+
+    });
+```
+
+Donde la respuesta tiene un como resultado: 
+
+```
+{
+    "limit":"Cantidad de datos por página",
+    "page":"Página actual",
+    "results":"Resultado que se solicito",
+    "total_logs":"Cantidad de logs",
+    "total_pages":"Cantidad de paginas que se podrian consumir"
+}
 ```
