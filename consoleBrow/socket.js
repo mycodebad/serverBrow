@@ -6,7 +6,8 @@ module.exports = function (eventEmitter,nameDb){
     let file = new admFile(nameDb);
 
     eventEmitter.on('log',(data)=>{                    
-        _writeFile('log', data);        
+        // _writeFile('log', data);        
+        _writeFile('all', data);        
     });
 
     eventEmitter.on('middleware',(data)=>{              
@@ -14,7 +15,8 @@ module.exports = function (eventEmitter,nameDb){
     });
 
     eventEmitter.on('group',(data)=>{             
-        _writeFile('group', data);
+        // _writeFile('group', data);
+        _writeFile('all', data);
     });
 
     io.on('connection',(socket)=>{
