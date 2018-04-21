@@ -31,10 +31,22 @@ function instanceDB(nameDb){
         this.db._.mixin({
             list:(array)=>{        
                 let page = ((pagination.page) * pagination.limit);
-                let results = array.slice(page,page+pagination.limit);                
+                let results = array.slice(page,page+pagination.limit);    
+                let totalPages = 0;
+                
+                if((array.length%pagination.limit)==0){
+                    console.warn("asdfasdfasdfasdf")
+                    totalPages = (array.length/pagination.limit);
+                }else{
+                    totalPages = (array.length/pagination.limit);
+                    totalPages = Math.floor(totalPages);                    
+                    totalPages = totalPages+1; 
+                }            
                 return {
                     results:results.reverse(),
-                    total:array.length,
+                    total_logs:array.length,
+                    total_pages:totalPages,
+                    // total_res:array.length%pagination.limit,
                     page:pagination.page,
                     limit:pagination.limit
                 }

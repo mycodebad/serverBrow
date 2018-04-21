@@ -5,13 +5,13 @@ let external = require('./external');
 /* GET home page. */
 let cons = require('../consoleBrow/test');
 router.get('/', function(req, res, next) {
-  console.groupKey('index',"Adrian Pedro");
+  // console.groupKey('index',"Adrian Pedro");
   // console.log('asdfasdf');
   // console.log('pppppp');
   // console.log('2222222');
   // cons();
-  console.groupKey('index',"Zelada Torrez");
-  console.groupKeyEnd('index');
+  // console.groupKey('index',"Zelada Torrez");
+  // console.groupKeyEnd('index');
   // result('hola Adios'); 
 
   // setTimeout(()=>{
