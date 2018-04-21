@@ -88,7 +88,7 @@ class Item extends Component {
   }
 
   renderGrouped () {
-    let { type, line, nameFile, routeFile } = this.state;
+    let { type } = this.state;
     return (
       <div className="containerItem">
         <div className="item">

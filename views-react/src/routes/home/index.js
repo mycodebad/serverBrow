@@ -6,7 +6,7 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import _ from 'lodash';
+// import _ from 'lodash';
 import './home.scss';
 import ListItem from '../../components/ListItem/ListItem'
 import io from 'socket.io-client';
@@ -23,6 +23,7 @@ class Home extends Component {
     this.onLogger = this.onLogger.bind(this);
     this.onMiddleware = this.onMiddleware.bind(this);
     this.onGroup = this.onGroup.bind(this);
+    this.onPagination = this.onPagination.bind(this);
     this.formatData = this.formatData.bind(this);
   }
   
@@ -30,9 +31,16 @@ class Home extends Component {
     console.log('componentDidMount', this.state);
     let { urlConnect, portConnect } = this.state;
     var socket = io(`${urlConnect + `:` + portConnect}`);
-    socket.on('log', (data) => this.onLogger(this, data));
+    // socket.on('log', (data) => this.onLogger(this, data));
     socket.on('middleware', (data) => this.onMiddleware(this, data));
-    socket.on('group', (data) => this.onGroup(this, data));
+    // socket.on('group', (data) => this.onGroup(this, data));
+    socket.on('list-pagination', (data) => this.onPagination(this, data));
+
+    // socket.emit('list',{
+    //   page:0,
+    //   limit:5,
+    //   type:'error'
+    // });
   }
 
   /**
@@ -90,6 +98,15 @@ class Home extends Component {
     });
   }
   
+  /**
+   * @description Socker for pagination data.
+   * @param {*} Context 
+   * @param {*} Data 
+   */
+  onPagination (Context, Data) {
+    console.log('onPagination', Context, Data);
+  } 
+
   /**
    * @description Return new format for data
    * @param {*} Data 
