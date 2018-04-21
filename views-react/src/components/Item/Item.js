@@ -48,7 +48,7 @@ class Item extends Component {
     let { content } = this.state;
     let valor = JSON.parse(content);
     if (typeof valor === 'object') {
-      return <ReactJson src={valor} />;
+      return <ReactJson src={valor} collapsed />;
     } else {
       return <p>{content}</p>;
     }

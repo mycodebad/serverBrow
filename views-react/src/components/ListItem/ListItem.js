@@ -24,6 +24,7 @@ class ListItem extends Component {
       textNext: this.props.textNext
     }
     this.cleanList = this.cleanList.bind(this);
+    this.onPageChange = this.onPageChange.bind(this);
   }
   
   componentWillReceiveProps (nextprops) {
@@ -53,7 +54,6 @@ class ListItem extends Component {
   renderItems () {
     let { items } = this.state;
     return _.map(items, pItemData => {
-      console.log("pItemData", pItemData);
       return <Item {...pItemData} key={uuid.v4()} />  
     })
   }
@@ -62,12 +62,24 @@ class ListItem extends Component {
    * @description Callback function to parent
    */
   cleanList () {
-    console.log('asdasd');
+    console.log('Clean List');
     if (this.props.cleanList !== undefined) {
       this.props.cleanList()
     }
   }
 
+  /**
+   * @description Event on change page
+   * @param {*} Context 
+   * @param {*} Data 
+   * @param {*} Other 
+   */
+  onPageChange (Page) {
+    console.log("onPageChange", Page);
+    if (this.props.selectedPage !== undefined && this.props.selectedPage !== null) {
+      this.props.selectedPage(Page.selected);
+    }
+  }
   render() {
     let { title, totalPages, textPrevious, textNext } = this.state;
     
@@ -75,32 +87,31 @@ class ListItem extends Component {
       <div className="containerListItem">
         <div className="recent-activities card">
           <div className="card-header">
-            <h3 className="h4">{title} <i className="btn btn-danger fa fa-trash fright" onClick={this.cleanList} /></h3>
+            <h3 className="h4">{title + " - Total Pages " + totalPages}  <i className="btn btn-danger fa fa-trash fright" onClick={this.cleanList} /></h3>
           </div>
           <div className="card-body no-padding">
+            <div className="">
+                <ReactPaginate
+                  previousLabel={textPrevious}
+                  nextLabel={textNext}
+                  breakLabel={<a href="">...</a>}
+                  breakClassName={"break-me"}
+                  pageCount={totalPages}
+                  marginPagesDisplayed={3}
+                  pageRangeDisplayed={1}
+                  
+                  containerClassName={"pagination mauto"}
+                  pageClassName={"page-item"}
+                  pageLinkClassName={"page-link"}
+                  previousClassName={"page-item"}
+                  nextClassName={"page-item"}
+                  previousLinkClassName={"page-link"}
+                  nextLinkClassName={"page-link"}
+                  disabledClassName={"disabled"}
+                  activeClassName={"active"} 
+                  onPageChange={this.onPageChange} />
+              </div>
             {this.renderItems()}
-{/**/}
-            <div className="mauto">
-              <ReactPaginate
-                previousLabel={textPrevious}
-                nextLabel={textNext}
-                breakLabel={<a href="">...</a>}
-                breakClassName={"break-me"}
-                pageCount={totalPages}
-                marginPagesDisplayed={10}
-                pageRangeDisplayed={1}
-                
-                containerClassName={"pagination mauto"}
-                pageClassName={"page-item"}
-                pageLinkClassName={"page-link"}
-                previousClassName={"page-item"}
-                nextClassName={"page-item"}
-                previousLinkClassName={"page-link"}
-                nextLinkClassName={"page-link"}
-                disabledClassName={"disabled"}
-                activeClassName={"active"} />
-            </div>
-              {/**/}
           </div>
         </div>
       </div>
@@ -116,6 +127,7 @@ ListItem.propTypes = {
   textPrevious: PropTypes.string,
   textNext: PropTypes.string,
   cleanList: PropTypes.func,
+  selectedPage: PropTypes.func
 };
 
 ListItem.defaultProps = {
