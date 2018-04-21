@@ -38,7 +38,7 @@
             });
             listInterval();
 
-        },4000)
+        },1000);
 
 
         function listInterval(){
@@ -46,7 +46,8 @@
             let interval=setInterval(()=>{                
                 socket.emit('list',{
                     page:page,
-                    limit:3
+                    limit:3,
+                    type:'error'
                 });
                 page++;
                 if(page>=3){

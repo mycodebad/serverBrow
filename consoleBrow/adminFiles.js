@@ -31,8 +31,7 @@ function instanceDB(nameDb){
         this.db._.mixin({
             list:(array)=>{        
                 let page = ((pagination.page) * pagination.limit);
-                let results = array.slice(page,page+pagination.limit);
-                // console.warn(array);
+                let results = array.slice(page,page+pagination.limit);                
                 return {
                     results:results.reverse(),
                     total:array.length,
@@ -42,10 +41,27 @@ function instanceDB(nameDb){
             }
         });
     
-        return this.db
-            .get(key)
-            .list()
-            .value();
+        if(pagination.type){
+            if(pagination.type.toLowerCase()=='all'){
+                return this.db
+                    .get(key)
+                    .list()
+                    .value();
+            }else{
+                console.warn(pagination.type)
+                return this.db
+                    .get(key)
+                    .filter({type:pagination.type.toLowerCase()})                    
+                    .list()
+                    .value();
+            }        
+        }else{
+            return this.db
+                .get(key)
+                .list()
+                .value();
+        }
+        
     }
 
     this.rangeDate=(key,initial,ending)=>{
