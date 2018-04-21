@@ -1,26 +1,68 @@
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
+const crypto = require("crypto");
 
-module.exports = (nameDb)=>{
-    const adapter = new FileSync(nameDb || 'logsDb.json');
-    const db = low(adapter);
+function instanceDB(nameDb){
+    this.adapter = new FileSync(nameDb || 'logsDb.json');
+    this.db = low(this.adapter);
 
-    db.defaults({ logs: [],middleware: []})
-    .write();
+    this.db
+        .defaults({ logs: [],middleware: []})
+        .write();
 
-    let write=(data)=>{
-        db.get('logs')
+    this.write=(data)=>{
+        data.id = crypto.randomBytes(16).toString("hex");
+        data.createdAt = Date.now();
+        this.db.get('logs')
             .unshift(data)
             .write();
     }
-    let middleware=(data)=>{
-        db.get('middleware')
+
+    
+    this.middleware=(data)=>{
+        data.id = crypto.randomBytes(16).toString("hex");
+        data.createdAt = Date.now();
+        this.db.get('middleware')
             .unshift(data)
             .write();
     }
 
-    return {
-        write:write,
-        middleware:middleware
+    this.list=(key,pagination)=>{
+        this.db._.mixin({
+            list:(array)=>{        
+                let page = ((pagination.page) * pagination.limit);
+                let results = array.slice(page,page+pagination.limit);
+                // console.warn(array);
+                return {
+                    results:results.reverse(),
+                    total:array.length,
+                    page:pagination.page,
+                    limit:pagination.limit
+                }
+            }
+        });
+    
+        return this.db
+            .get(key)
+            .list()
+            .value();
+    }
+
+    this.rangeDate=(key,initial,ending)=>{
+        this.db._.mixin({
+            rangeDate:(array)=>{
+                let results = array.filter((val)=>{
+                    return ((initial < val.createdAt)&&( val.createdAt < ending))
+                });
+                return results.reverse();
+            }
+        });
+    
+        return this.db
+            .get(key)
+            .rangeDate()
+            .value();
     }
 }
+
+module.exports=instanceDB;

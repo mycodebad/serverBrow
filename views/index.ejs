@@ -23,6 +23,37 @@
             console.log('group')
             console.dir(data);                        
         });
+
+
+        socket.on('list-pagination',function (data) {
+            console.log('list-pagination')
+            console.dir(data);                        
+        });
+        
+
+        setTimeout(()=>{
+            socket.emit('rangedate',{
+                initial:1524274173200,
+                ending:1524274177000
+            });
+            listInterval();
+
+        },4000)
+
+
+        function listInterval(){
+            let page=0;
+            let interval=setInterval(()=>{                
+                socket.emit('list',{
+                    page:page,
+                    limit:3
+                });
+                page++;
+                if(page>=3){
+                    clearInterval(interval);
+                }                
+            },1000)
+        }
     </script>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
