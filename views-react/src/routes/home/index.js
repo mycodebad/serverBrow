@@ -96,7 +96,7 @@ class Home extends Component {
    */
   onPagination (Context, Data) {
     console.log('onPagination', Data);
-    let { limit, page, total_logs, total_pages, results } = Data;
+    let { total_logs, total_pages, results } = Data;
 
     _.forEach(results, pRes => {
       console.log('Resultado del paginado', pRes);
