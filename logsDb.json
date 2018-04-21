@@ -68,6 +68,86 @@
           "data": []
         }
       ],
+      "id": "80efc2a48ba851d5c0f9f1b83861e4cb",
+      "createdAt": 1524345899982
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "error alguno"
+      ],
+      "id": "59e5a469f413318062f62b5df2c791b9",
+      "createdAt": 1524345899959
+    },
+    {
+      "type": "group",
+      "group": "data",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
+      "data": [
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:27:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:28:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:29:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:30:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:31:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:32:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:33:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
+          "data": []
+        }
+      ],
       "id": "db270a8ddd1ee2a3520a59f96ef27a7b",
       "createdAt": 1524343563698
     },
@@ -1592,6 +1672,63 @@
       "headers": {
         "host": "localhost:3000",
         "connection": "keep-alive",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=65zO_KOieerkrWQeAAAF",
+        "if-none-match": "W/\"2c-2v/d3svLN64LU9U9F8Pi1g\""
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "343991f5a617317d152db51c834b2841",
+      "createdAt": 1524345899998
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=bckigB3c63hvHeUIAAAE",
+        "if-none-match": "W/\"65d-PBM+58Jn16FkmYiaoPSqhw\""
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "title": "Express",
+        "_locals": {}
+      },
+      "url": "http://localhost:3000/",
+      "id": "c32c660220728a3bbda1de82cac41d33",
+      "createdAt": 1524345890926
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
         "cache-control": "max-age=0",
         "upgrade-insecure-requests": "1",
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36",
@@ -1609,7 +1746,8 @@
         "query": null
       },
       "response": {
-        "title": "Express"
+        "title": "Express",
+        "_locals": {}
       },
       "url": "http://localhost:3000/",
       "id": "7067fa7956686b43449ad22ba5df49f1",
