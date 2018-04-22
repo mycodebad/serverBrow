@@ -49,6 +49,7 @@ class Home extends Component {
    */
   onAll (Context, Data) {
     console.log("onAll", Data);
+    console.log("onAll", Data);
     this.cleanListParent('ListaConsolas');
     this.onEmitPagination();
   }
@@ -86,7 +87,7 @@ class Home extends Component {
     console.log('onGroup===>', Data);
     // this.onConsoleBrow(this, Data, 'group');
     this.cleanListParent('ListaConsolas');
-    this.onEmitPagination();
+    // this.onEmitPagination();
   }
 
   /**
@@ -95,9 +96,11 @@ class Home extends Component {
    * @param {*} Data 
    */
   onPagination (Context, Data) {
-    console.log('onPagination', Data);
+    console.log('onPagination===>', Data);
     let { total_logs, total_pages, results } = Data;
 
+    this.cleanListParent('ListaConsolas');
+    console.log("asdasdasdasdasdasdasdasdasdasd");
     _.forEach(results, pRes => {
       console.log('Resultado del paginado', pRes);
       this.onConsoleBrow(this, pRes, pRes.type, { totalLogs: total_logs, totalPages: total_pages} );
@@ -115,7 +118,7 @@ class Home extends Component {
     this.formatData(Data)
     .then(newFormatData => {
       items.unshift(newFormatData);
-      setTimeout(() => {
+      // setTimeout(() => {
         if (Pagination !== null) {
           this.refs.ListaConsolas.setState({
             items: items,
@@ -127,7 +130,7 @@ class Home extends Component {
             items: items
           })
         }
-      }, 1000)
+      // }, 1000)
     })
     .catch(err  => {
       console.log('promise failed', err);
