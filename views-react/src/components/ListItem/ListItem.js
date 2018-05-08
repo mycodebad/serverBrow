@@ -87,7 +87,7 @@ class ListItem extends Component {
       <div className="containerListItem">
         <div className="recent-activities card">
           <div className="card-header">
-            <h3 className="h4">{title + " - Total Pages " + totalPages}  <i className="btn btn-danger fa fa-trash fright" onClick={this.cleanList} /></h3>
+            <h3 className="h4">{title}  <i className="btn btn-danger fa fa-trash fright" onClick={this.cleanList} /></h3>
           </div>
           <div className="card-body no-padding">
             <div className="">
