@@ -1,7 +1,9 @@
+.t-center {
+  text-align: center;
+}
 .t-right {
   text-align: right;
 }
-
 .t-left {
   text-align: left;
 }
@@ -33,4 +35,13 @@
 
 .mauto {
   margin: 0 auto;
+}
+.m5 {
+  margin: 15px;
+}
+.dInlineBlock {
+  display: inline-block;
+}
+.dBlock {
+  display: block;
 }
