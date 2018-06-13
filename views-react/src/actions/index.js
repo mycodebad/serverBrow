@@ -1,6 +1,7 @@
 import DataItem from "../utils/dataItem";
+import DataRequest from "../utils/dataRequest";
 import io from "socket.io-client";
-
+import axios from "axios";
 const cleanListAction = items => {
   return {
     type: "CLEAN_LIST",
@@ -8,6 +9,13 @@ const cleanListAction = items => {
     page: 0,
     totalPages: 0,
     totalLogs: 0
+  };
+};
+
+const cleanListRequest = items => {
+  return {
+    type: "CLEAN_LIST_REQUEST",
+    requests: []
   };
 };
 
@@ -45,4 +53,36 @@ const emitPagination = pageSelected => {
   };
 };
 
-export { cleanListAction, changeItems, emitPagination };
+const changeRequests = Data => {
+  console.log("changeRequests", Data);
+  return function(dispatch) {
+    const _reqs = new DataRequest(Data);
+    console.log("DataRequests==========>", _reqs);
+    dispatch({
+      type: "CHANGE_REQUESTS",
+      requests: _reqs
+    });
+  };
+};
+
+const sendRequest = DataRequest => {
+  console.log("sendRequest ACTION", DataRequest);
+  return function(dispatch) {
+    axios({
+      method: DataRequest.method,
+      url: DataRequest.url,
+      responseType: "stream"
+    });
+    dispatch({
+      type: "SEND_REQUESTS"
+    });
+  };
+};
+export {
+  cleanListAction,
+  changeItems,
+  emitPagination,
+  cleanListRequest,
+  changeRequests,
+  sendRequest
+};

@@ -1,6 +1,15 @@
 import { createStore, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
-import logger from 'redux-logger'
+import logger from "redux-logger";
+
+const getInitialState = {
+  items: [],
+  requests: [],
+  page: 0,
+  limit: 10,
+  totalPages: 0,
+  totalLogs: 0
+};
 
 const reducer = (state, action) => {
   if (action.type === "CLEAN_LIST") {
@@ -25,9 +34,20 @@ const reducer = (state, action) => {
       items: action.items,
       page: action.page
     };
+  } else if (action.type === "CHANGE_REQUESTS") {
+    console.log("CHANGE_REQUESTS ACTIOIN ===>", action);
+
+    return {
+      ...state,
+      requests: [...state.requests, action.requests]
+    };
   }
 
   return state;
 };
 
-export default createStore(reducer, { items: [] }, applyMiddleware(thunk, logger));
+export default createStore(
+  reducer,
+  getInitialState,
+  applyMiddleware(thunk, logger)
+);

@@ -7,10 +7,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import io from "socket.io-client";
-import ListItem from "../../components/ListItem/ListItem";
 import ContainerListItem from "../../components/ListItem/ContainerListItem";
+import ContainerList from "../../components/List/ContainerList";
 import store from "../../store";
-import { changeItems, emitPagination } from "../../actions";
+import { changeItems, emitPagination, changeRequests } from "../../actions";
 import "./home.scss";
 class Home extends Component {
   constructor(props) {
@@ -51,6 +51,7 @@ class Home extends Component {
     console.log("onMiddleware");
     console.log("Context", Context);
     console.log("Data", Data);
+    store.dispatch(changeRequests(Data));
   }
   /**
    * @description Socker for pagination data.
@@ -67,10 +68,10 @@ class Home extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-              <ContainerListItem ref="ListaConsolas" />
+              <ContainerListItem ref="ListaConsolas" title={"Lista de Logs"} />
             </div>
             <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-              <ListItem ref="ListaRestApi" title={"API REST"} />
+              <ContainerList ref="ListaRestApi" title={"Lista de Requests"} />
             </div>
           </div>
         </div>
