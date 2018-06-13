@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import ListItem from "./ListItem";
-import { cleanListAction, emitPagination, sendRequest } from "../../actions";
+import { cleanListAction, emitPagination } from "../../actions";
 
 class ContainerListItem extends Component {
   render() {
