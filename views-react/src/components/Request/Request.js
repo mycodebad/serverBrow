@@ -1,5 +1,8 @@
 import React, { Component } from "react";
+import Collapse, { Panel } from "rc-collapse";
 import "./Request.scss";
+import "rc-collapse/assets/index.css";
+import ReactJson from "react-json-view";
 class Request extends Component {
   sendRequest() {
     console.log("sendRequest REQUEST CP");
@@ -15,7 +18,6 @@ class Request extends Component {
     return (
       <div className="containerRequest">
         <div className="alert alert-light border border-primary" role="alert">
-          {url}
           <button
             type="button"
             className="btn btn-primary float-right"
@@ -29,6 +31,11 @@ class Request extends Component {
           <button type="button" className="btn btn-primary float-right">
             {status}
           </button>
+          <Collapse accordion={true}>
+            <Panel header={url} headerClass="my-header-class">
+              <ReactJson src={this.props} />
+            </Panel>
+          </Collapse>
         </div>
       </div>
     );

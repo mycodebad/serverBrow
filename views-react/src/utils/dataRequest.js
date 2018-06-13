@@ -13,6 +13,7 @@ class dataRequest {
     this.headers = Data.headers;
     this.request = Data.request;
     this.createdAt = Data.createdAt;
+    this.response = Data.response;
   }
 }
 

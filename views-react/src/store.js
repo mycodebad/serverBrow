@@ -39,7 +39,7 @@ const reducer = (state, action) => {
 
     return {
       ...state,
-      requests: [...state.requests, action.requests]
+      requests: [action.requests, ...state.requests]
     };
   }
 
