@@ -8,5 +8,8 @@ export default combineReducers(
     LogsReducer,
     RequestsReducer
   },
-  InitialState
+  {
+    ...InitialState.Logs,
+    ...InitialState.Requests
+  }
 );

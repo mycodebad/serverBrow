@@ -1,7 +1,7 @@
 import * as Actions from "../actions/actionTypes";
 import InitialState from "../actions/InitialState";
 
-export default function requestsReducer(state = InitialState, action) {
+export default function requestsReducer(state = InitialState.Requests, action) {
   switch (action.type) {
     case Actions.CL_REQS:
       return {
