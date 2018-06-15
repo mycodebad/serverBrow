@@ -1,10 +1,11 @@
 import DataItem from "../utils/dataItem";
 import DataRequest from "../utils/dataRequest";
+import * as Actions from "./actionTypes";
 import io from "socket.io-client";
 import axios from "axios";
 const cleanListAction = items => {
   return {
-    type: "CLEAN_LIST",
+    type: Actions.CL_LOGS,
     items: [],
     page: 0,
     totalPages: 0,
@@ -12,9 +13,9 @@ const cleanListAction = items => {
   };
 };
 
-const cleanListRequest = items => {
+const cleanListRequest = () => {
   return {
-    type: "CLEAN_LIST_REQUEST",
+    type: Actions.CL_REQS,
     requests: []
   };
 };
@@ -26,7 +27,7 @@ const changeItems = Data => {
     });
 
     dispatch({
-      type: "CHANGE_ITEMS",
+      type: Actions.CH_ITEMS,
       items: _items,
       limit: Data.limit,
       page: Data.page,
@@ -45,7 +46,7 @@ const emitPagination = pageSelected => {
       type: "all"
     });
     dispatch({
-      type: "EMIT_PAGINATION",
+      type: Actions.EMIT_PAG, // "EMIT_PAGINATION",
       items: [],
       limit: 10,
       page: pageSelected
@@ -54,19 +55,16 @@ const emitPagination = pageSelected => {
 };
 
 const changeRequests = Data => {
-  console.log("changeRequests", Data);
   return function(dispatch) {
     const _reqs = new DataRequest(Data);
-    console.log("DataRequests==========>", _reqs);
     dispatch({
-      type: "CHANGE_REQUESTS",
+      type: Actions.CH_REQS, // "CHANGE_REQUESTS",
       requests: _reqs
     });
   };
 };
 
 const sendRequest = DataRequest => {
-  console.log("sendRequest ACTION", DataRequest);
   return function(dispatch) {
     axios({
       method: DataRequest.method,
@@ -74,7 +72,7 @@ const sendRequest = DataRequest => {
       responseType: "stream"
     });
     dispatch({
-      type: "SEND_REQUESTS"
+      type: Actions.SEND_REQS // "SEND_REQUESTS"
     });
   };
 };

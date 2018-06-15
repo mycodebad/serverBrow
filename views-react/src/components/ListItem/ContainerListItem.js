@@ -35,10 +35,10 @@ ContainerListItem.defaultProps = {
 const mapStateToProps = state => {
   console.log("mapStateToProps", state);
   return {
-    items: state.items,
-    page: state.page,
-    totalPages: state.totalPages,
-    totalLogs: state.totalLogs
+    items: state.LogsReducer.items,
+    page: state.LogsReducer.page,
+    totalPages: state.LogsReducer.totalPages,
+    totalLogs: state.LogsReducer.totalLogs
   };
 };
 
