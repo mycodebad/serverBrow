@@ -12,6 +12,7 @@ import uuid from "uuid";
 import Request from "./../Request/Request";
 import DataEmpty from "../Empty/DataEmpty";
 import Paginator from "../Paginator/Paginator";
+import "./List.scss";
 class ListItem extends Component {
   constructor(props) {
     super(props);
