@@ -9,3 +9,11 @@ module.exports = function(app,nameDb){
     console(eventEmitter);
     socket(eventEmitter,nameDb);
 }
+
+
+// export function start(app,nameDb){
+//     let eventEmitter = new EventEmitter();
+//     middleware(app,eventEmitter);
+//     console(eventEmitter);
+//     socket(eventEmitter,nameDb);
+// }

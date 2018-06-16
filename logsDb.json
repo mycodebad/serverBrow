@@ -1,6 +1,590 @@
 {
   "logs": [
     {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/js/main.38313dea.js\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "a9bb10bf517a44a9a3ffff7a86adca10",
+      "createdAt": 1529116458322
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/css/main.7b6c73aa.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "2de780b8915d9cf1ff5c84b0a31b88cf",
+      "createdAt": 1529116458307
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/css/main.d6166baf.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "d0072219f27ebdb6069498412f6ae025",
+      "createdAt": 1529116257698
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/js/main.99a8da6e.js\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "d0251746abcfeaca2ce3abce4348b752",
+      "createdAt": 1529116251830
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/css/main.d6166baf.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "bef4fb4546e3eb014c0861e6326a5bf0",
+      "createdAt": 1529116251826
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/js/main.99a8da6e.js\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "135b9437982f8760ede459679995962c",
+      "createdAt": 1529116251294
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/css/main.d6166baf.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "980ea76b6b2ab091b59ee5b010972555",
+      "createdAt": 1529116251284
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "b921701e00cc08720dd898add5d08ed3",
+      "createdAt": 1529115791006
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "7dc9f4308cdac9a26755d5527444c217",
+      "createdAt": 1529115704642
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "7bdb63b7c39174f6cf266bfcca72d8f8",
+      "createdAt": 1529115459627
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "Logggggg"
+      ],
+      "id": "cd18ea835ea31f389bf6495161939318",
+      "createdAt": 1529115401187
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "Logggggg"
+      ],
+      "id": "99104351e76dec1e6ba972b9ea778f84",
+      "createdAt": 1529115391898
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "Logggggg"
+      ],
+      "id": "d342f0f407faa57f5b4804d681bc7011",
+      "createdAt": 1529115265913
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "Logggggg"
+      ],
+      "id": "a3cfa47cb5cc1b08a75a38e270ba7a29",
+      "createdAt": 1529114943281
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "Logggggg"
+      ],
+      "id": "522f9a44e122b24d33c58230c11c69b3",
+      "createdAt": 1529114838372
+    },
+    {
+      "type": "group",
+      "group": "data",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
+      "data": [
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:27:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:28:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:29:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:30:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:31:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:32:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:33:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
+          "data": []
+        }
+      ],
+      "id": "bb28e0e6e611af611784bae67229cff8",
+      "createdAt": 1529114713207
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "error alguno"
+      ],
+      "id": "959960ee75d27cdc5f8872afeb3d40ab",
+      "createdAt": 1529114713201
+    },
+    {
+      "type": "group",
+      "group": "data",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
+      "data": [
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:27:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:28:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:29:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:30:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:31:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:32:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:33:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
+          "data": []
+        }
+      ],
+      "id": "a4f6a0183a246ad2dfe68b2f7c468dda",
+      "createdAt": 1529114623076
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "error alguno"
+      ],
+      "id": "d6a6826c7fd9af8a9ac5f664a879925b",
+      "createdAt": 1529114623072
+    },
+    {
+      "type": "group",
+      "group": "data",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
+      "data": [
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:27:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:28:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:29:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:30:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:31:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:32:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:33:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
+          "data": []
+        }
+      ],
+      "id": "e84f2069547638cf7bcb5e3f52456da7",
+      "createdAt": 1529114466245
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "error alguno"
+      ],
+      "id": "d250b25516f03e3d600472743280b8a1",
+      "createdAt": 1529114466238
+    },
+    {
+      "type": "group",
+      "group": "data",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
+      "data": [
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:27:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:28:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:29:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:30:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:31:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:32:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:33:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
+          "data": []
+        }
+      ],
+      "id": "df4580eb25018d6b3c740e9b7151ba70",
+      "createdAt": 1529114428521
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "error alguno"
+      ],
+      "id": "d91c8dbaf379fb6053f027970270b2d4",
+      "createdAt": 1529114428517
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/js/main.99a8da6e.js\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "dbd151fe941bf0bbcef603b651aa1e95",
+      "createdAt": 1529114377171
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/css/main.d6166baf.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "330f430db491731847b2ebea62cb0b10",
+      "createdAt": 1529114377159
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/js/main.99a8da6e.js\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "c8e71ece6f470f5b72cdc9dd743a6ee3",
+      "createdAt": 1529113490636
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/css/main.d6166baf.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "7e5fd13fa41a9baefc8bc160fd6f7856",
+      "createdAt": 1529113490630
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/css/main.d6166baf.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "ef7a2d65afd45964e94188dcf1d88648",
+      "createdAt": 1529113489319
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/favicon.ico\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "10e18f33f7699c3c02ee213a68005ba8",
+      "createdAt": 1529113485069
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/js/main.99a8da6e.js\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "176af6556839b41c508adce185c26dd3",
+      "createdAt": 1529113484709
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /mycodebad/serverBrow/static/css/main.d6166baf.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "c7b101b47956e9987fcfb7f27d64a08d",
+      "createdAt": 1529113484703
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
+      "data": "Error: Route Not Found /favicon.ico\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "1898bdcb2a3b4f3fa4e2fc108439cf88",
+      "createdAt": 1529113443232
+    },
+    {
+      "type": "group",
+      "group": "data",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
+      "data": [
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:27:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:28:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:29:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:30:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:31:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:32:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:33:11",
+          "data": [
+            "Arnol"
+          ]
+        },
+        {
+          "type": "group",
+          "group": "data",
+          "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
+          "data": []
+        }
+      ],
+      "id": "c8d409f2be095723cbc4230c0e985844",
+      "createdAt": 1524368890809
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "error alguno"
+      ],
+      "id": "d0aea86bf7c12000f28b1b873ee81cce",
+      "createdAt": 1524368890786
+    },
+    {
       "type": "group",
       "group": "data",
       "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:34:11",
@@ -1667,6 +2251,421 @@
     }
   ],
   "middleware": [
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "accept": "application/json, text/plain, */*",
+        "origin": "http://localhost:3030",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "referer": "http://localhost:3030/_console",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "3d530d8482a835fd08b7eef43d530db0",
+      "createdAt": 1529115791012
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "accept": "application/json, text/plain, */*",
+        "origin": "http://localhost:3030",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "referer": "http://localhost:3030/_console",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "67e1db68fe497445458136ea7d3fb6fb",
+      "createdAt": 1529115704646
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=GPqX7JICiI7tiBK4AAAC"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "a2bdf30157c4702051f876a93bbc0e73",
+      "createdAt": 1529115459634
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=-sy0gJUTAacxbVLbAAAD"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "a0f96a628757328bcd41ea1f8f1cd681",
+      "createdAt": 1529115401189
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=j--G7XBMMy3vaERoAAAC"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "a8f8a53cbb76e1fcf811502ce1bf13f5",
+      "createdAt": 1529115391902
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=u-8fXC8wwl_fgHrsAAAA"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "79c8a515940f7361cb47a53e828d8bb0",
+      "createdAt": 1529115265921
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=LwxLtEGrP1tQVfy5AAAc"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "e9d5cd33ccd5faccf57f05b03c4b6b2a",
+      "createdAt": 1529114943283
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=4yf5m23D0ajrSp0vAAAS"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "4f6ae77c019f022c350aba7b05eaf1fe",
+      "createdAt": 1529114838379
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=ITOMO2m0y-s3FQG2AAAR"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "2c77afdde4df3fbad9f918a68cf36793",
+      "createdAt": 1529114713210
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=-BrsgV1JSXp59mX1AAAP"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "abacf2e997baddef371101c2f51a4901",
+      "createdAt": 1529114623080
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "accept": "application/json, text/plain, */*",
+        "origin": "http://localhost:3030",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "referer": "http://localhost:3030/_console",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "9f2f63b6fd0d1d9160d0163ca2b8371a",
+      "createdAt": 1529114466249
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=B4ds8BwrGAtpkW94AAAL"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "84350496a68b46e8782c55f119efe373",
+      "createdAt": 1529114428527
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=Fzz7IYj1lZ9kie7cAAAT"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "title": "Express",
+        "_locals": {}
+      },
+      "url": "http://localhost:3000/",
+      "id": "8c555257ca863f6d1fdd4826a5b11e0a",
+      "createdAt": 1529113441867
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=ZNWzWR_iXOeMQYRxAAAA",
+        "if-none-match": "W/\"2c-2v/d3svLN64LU9U9F8Pi1g\""
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "58142e8efdcf0ae4e4b038039b60e383",
+      "createdAt": 1524368890825
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=ZNWzWR_iXOeMQYRxAAAA",
+        "if-none-match": "W/\"65d-PBM+58Jn16FkmYiaoPSqhw\""
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "title": "Express",
+        "_locals": {}
+      },
+      "url": "http://localhost:3000/",
+      "id": "17ca931be97b089fc3a9fc2b5fa63a19",
+      "createdAt": 1524368888852
+    },
     {
       "status": 200,
       "headers": {

@@ -23,15 +23,15 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/data', function(req, res, next) {
-  console.log('error alguno');
-  console.groupKey('data',"Arnol");
-  console.groupKey('data',"Arnol");
-  console.groupKey('data',"Arnol");
-  console.groupKey('data',"Arnol");
-  console.groupKey('data',"Arnol");
-  console.groupKey('data',"Arnol");
-  console.groupKey('data',"Arnol");
-  console.groupKeyEnd('data');
+  console.log('xxxxxxxx');
+  // console.groupKey('data',"Arnol");
+  // console.groupKey('data',"Arnol");
+  // console.groupKey('data',"Arnol");
+  // console.groupKey('data',"Arnol");
+  // console.groupKey('data',"Arnol");
+  // console.groupKey('data',"Arnol");
+  // console.groupKey('data',"Arnol");
+  // console.groupKeyEnd('data');
   res.json({
     name:'Adrian',
     lastName:'Zelada Torrez'

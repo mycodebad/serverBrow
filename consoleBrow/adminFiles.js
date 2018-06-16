@@ -17,7 +17,6 @@ function instanceDB(nameDb){
             .unshift(data)
             .write();
     }
-
     
     this.middleware=(data)=>{
         data.id = crypto.randomBytes(16).toString("hex");
@@ -30,12 +29,12 @@ function instanceDB(nameDb){
     this.list=(key,pagination)=>{
         this.db._.mixin({
             list:(array)=>{        
+                console.warn(pagination)
                 let page = ((pagination.page) * pagination.limit);
                 let results = array.slice(page,page+pagination.limit);    
                 let totalPages = 0;
                 
-                if((array.length%pagination.limit)==0){
-                    console.warn("asdfasdfasdfasdf")
+                if((array.length%pagination.limit)==0){                    
                     totalPages = (array.length/pagination.limit);
                 }else{
                     totalPages = (array.length/pagination.limit);
@@ -43,7 +42,7 @@ function instanceDB(nameDb){
                     totalPages = totalPages+1; 
                 }            
                 return {
-                    results:results.reverse(),
+                    results:results,
                     total_logs:array.length,
                     total_pages:totalPages,
                     // total_res:array.length%pagination.limit,

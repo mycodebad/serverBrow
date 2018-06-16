@@ -1,4 +1,6 @@
+// import * as start from 'consoleBrow/index';
 var express = require('express');
+
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -10,9 +12,10 @@ var users = require('./routes/users');
 
 var consoleTest = require('./routes/test.console');
 
-var app = express();
 
+var app = express();
 require('./consoleBrow/index')(app);
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
