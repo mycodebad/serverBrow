@@ -60,7 +60,7 @@
   },
   "scripts": {
     "start": "PORT=3030 node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "node scripts/build.js && cp -r ./public/img ./../public/",
     "test": "node scripts/test.js --env=jsdom",
     "start_build": "serve -s build"
   },
@@ -126,8 +126,5 @@
   ],
   "author": "Guillermo David Paredes Torrez",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mycodebad/serverBrow/issues"
-  },
-  "homepage": "https://github.com/mycodebad/serverBrow#readme"
+  "homepage": "./"
 }
