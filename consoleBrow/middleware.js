@@ -1,6 +1,7 @@
 var express = require('express'),
     router = express.Router();
 var path = require('path');
+var fs = require('fs');
 require('./console');
 module.exports=function(app,eventEmitter){  
     let pathRoute='/_console';
@@ -43,11 +44,12 @@ module.exports=function(app,eventEmitter){
         next(err)
     }
 
-    router.get('/',function (req,res) {
-        res.sendFile('../views-react/build/index.html');
-    });
-    console.log(path.join(__dirname, '../views-react/build/'));
+    // app.use(pathRoute,express.static(path.join(__dirname, './build/')));
     app.use(pathRoute,express.static(path.join(__dirname, '../views-react/build/')));
+    router.get('/',function (req,res) {        
+        res.sendFile('./index.html');
+    });
+
     app.use(pathRoute,_logErrors,router);
     app.use(_responseBody);   
     app.all('*',( req, res, next)=>{

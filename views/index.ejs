@@ -27,7 +27,14 @@
 
         socket.on('list-pagination',function (data) {
             console.log('list-pagination')
-            console.dir(data);                        
+            console.dir(data);               
+        });
+
+        socket.on('view-file',function (data) {
+            console.log('view-file')
+            console.dir(data); 
+            let content = document.getElementById('content');
+            content.innerHTML=data.codeHtml                                             
         });
         
 
@@ -36,9 +43,13 @@
             //     initial:1524274173200,
             //     ending:1524274177000
             // });
-            listInterval();
 
-        },1000);
+            // listInterval();
+
+            socket.emit('file',{
+                line:'/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11'
+            })
+        },3000);
 
 
         function listInterval(){
@@ -58,5 +69,6 @@
     </script>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <div id="content"></div>
   </body>
 </html>

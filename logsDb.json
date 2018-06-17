@@ -1,6 +1,1761 @@
 {
   "logs": [
     {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:53:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "cd0d868a190830a2add35951aac20c58",
+      "createdAt": 1529216386153
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:68:22",
+      "data": "ReferenceError: lineNumbe is not defined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:68:22\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "8b7401e67ddd0310553062044cf634e3",
+      "createdAt": 1529216364959
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:53:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "0fb45d1b51c6079271d7ffd61979d35a",
+      "createdAt": 1529216364939
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:53:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "3d36b7d0b1865b358856de1beaf94637",
+      "createdAt": 1529216252357
+    },
+    {
+      "type": "error",
+      "line": "Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:89:10)",
+      "data": "SyntaxError: Identifier 'lineNumber' has already been declared\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:89:10)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)",
+      "id": "f144caa4df6ac660e0cc71c670db3f70",
+      "createdAt": 1529216209691
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /favicon.ico\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "3c25c2516ab1362d56b4ccd10798d6ed",
+      "createdAt": 1529215773032
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "d05bdf5cb89e8ebe10eab295c1e5ae2a",
+      "createdAt": 1529215771790
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:53:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "94839a46b4d311413578911d69f08870",
+      "createdAt": 1529215679999
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "7fd715ee66a289e177b07975a3cf1938",
+      "createdAt": 1529215589189
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "7abac7ab27a2b14f1c24fda34fa38a1b",
+      "createdAt": 1529215386209
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "0ae8e9e4c37ed234219f6b1183ffec6a",
+      "createdAt": 1529215171791
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "58e30732678eb2f90cfcbf1cb714cbaf",
+      "createdAt": 1529215129848
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "15852689d8a291d8312ddb595faa54a8",
+      "createdAt": 1529215094841
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "c74166c06166dae7573b46a6119b635f",
+      "createdAt": 1529215052827
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "c4c173ce78f819f3e4a439179195b27f",
+      "createdAt": 1529214736890
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "361dd31b86ef77838018279af7856df0",
+      "createdAt": 1529214417445
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "501b6af6251b5b5fd3a8fe86a1cfb8bf",
+      "createdAt": 1529213844478
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "ef890c22fd28322db9f3144880f3b85a",
+      "createdAt": 1529212752441
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "e40a65ab9118cf2acd7c83710fae5acc",
+      "createdAt": 1529212454969
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "57fa38e23b2d9f18e86c42d40dc963c0",
+      "createdAt": 1529208650912
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "398e6cd73c3824b9dcd2a131fc316dd9",
+      "createdAt": 1529208579532
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "49473e4971dc490b771f8fee4c05232a",
+      "createdAt": 1529208538291
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "afcdcb5e75f6e1dbdab446a78e69035c",
+      "createdAt": 1529208486354
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "26f64af9f423e20efa5c72611afccfa0",
+      "createdAt": 1529208341425
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "2d40dcba2bb2ee49f27f50cf606c307a",
+      "createdAt": 1529208277419
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "79461725e4270b8c76818b17314ccf2e",
+      "createdAt": 1529207927369
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:84:21",
+      "data": [
+        47
+      ],
+      "id": "60dedcb97b377c62267d74a4fec87875",
+      "createdAt": 1529207770870
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "}"
+      ],
+      "id": "859b151c1767eadb43a74d69b90c7bb4",
+      "createdAt": 1529207770867
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "2f08964151ecf6624f69aafbfc427c1e",
+      "createdAt": 1529207770864
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  console.groupKey('index',\"ChiCho\");  "
+      ],
+      "id": "b099dad45c5fcfaa5add8f029fb2acd7",
+      "createdAt": 1529207770860
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "0beff23cd8339b7093959a6c93404afe",
+      "createdAt": 1529207770857
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  console.log('adsasdasda')"
+      ],
+      "id": "857b781e220311d0a58ab81311d3777f",
+      "createdAt": 1529207770854
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "74acfc28f1acb9faf05cf3fb794969fc",
+      "createdAt": 1529207770852
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  console.log(t);"
+      ],
+      "id": "23d88dd0d679367b553e05bb1ae989fb",
+      "createdAt": 1529207770849
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "6aca7c32e7b50b5c22c03266ba9455d7",
+      "createdAt": 1529207770847
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "function result(t){"
+      ],
+      "id": "38c2e7a35311aefeb31b57deeba920b0",
+      "createdAt": 1529207770844
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "2d7461c573fd42ca96a2e97d040af7a5",
+      "createdAt": 1529207770842
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        ""
+      ],
+      "id": "2d52d8c1a41ddc2cbec148c7a5a427c8",
+      "createdAt": 1529207770836
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "a964d4390156b9f73dae03ea69f60df1",
+      "createdAt": 1529207770832
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "module.exports = router;"
+      ],
+      "id": "e897045541c375617de1a3b65909c71d",
+      "createdAt": 1529207770829
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "c2b5fa4dfa7ae5b633b225ac8e48a0f1",
+      "createdAt": 1529207770827
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        ""
+      ],
+      "id": "6fe0546cce84ab8e05177f1859c56aa9",
+      "createdAt": 1529207770824
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "510af57590e911210a101a455127de1c",
+      "createdAt": 1529207770821
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "})"
+      ],
+      "id": "5288f5e6849f9d93bc6e921175756744",
+      "createdAt": 1529207770818
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "2fb14b1ce1f152549b8beb5cdb03ecbc",
+      "createdAt": 1529207770815
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  })"
+      ],
+      "id": "886915886de74c127096b140a4b05007",
+      "createdAt": 1529207770812
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "5fd7b928187d384b0924e5aedb973930",
+      "createdAt": 1529207770808
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "    lastName:'Zelada Torrez'"
+      ],
+      "id": "86d294c44f3a5f79e13669c37930729d",
+      "createdAt": 1529207770804
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "8544438e39b469d8aefa987b2ec73ec6",
+      "createdAt": 1529207770802
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "    name:'Adrian',"
+      ],
+      "id": "baeb47f4c78c8a7383cd695e123f24aa",
+      "createdAt": 1529207770798
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "11ab72fd228d7f1a9636c095a3597532",
+      "createdAt": 1529207770794
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  res.json({"
+      ],
+      "id": "7a29730b54e05b0a1958a918c5b6b9be",
+      "createdAt": 1529207770791
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "a8bf5d7b85e563a17b0edbdce9ef4681",
+      "createdAt": 1529207770787
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.groupKeyEnd('data');"
+      ],
+      "id": "28792f84f58e58b3a243db56f2541e57",
+      "createdAt": 1529207770784
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "bb3702184839bda85f9be5d17636373a",
+      "createdAt": 1529207770781
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.groupKey('data',\"Arnol\");"
+      ],
+      "id": "f5cc7ff583df024796eaed74ee819990",
+      "createdAt": 1529207770776
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "d319422a568d22993b90df3931e3cb4c",
+      "createdAt": 1529207770772
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.groupKey('data',\"Arnol\");"
+      ],
+      "id": "b08c89d51113af80ea8474f0d2457a8b",
+      "createdAt": 1529207770769
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "3708c0830ec09b1a13de73ac71feef2d",
+      "createdAt": 1529207770760
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.groupKey('data',\"Arnol\");"
+      ],
+      "id": "729a2a53e0c3541e1663afff75c5c22b",
+      "createdAt": 1529207770756
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "66c73880ab0133c5e0c0d3c66e27a1e0",
+      "createdAt": 1529207770748
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.groupKey('data',\"Arnol\");"
+      ],
+      "id": "4064f7b3240a35c7498e71fea1fa1924",
+      "createdAt": 1529207770739
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "c0f47a99ea2d57779ff85a9048034820",
+      "createdAt": 1529207770725
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.groupKey('data',\"Arnol\");"
+      ],
+      "id": "437183d467a2fefb976f0f995c8eb2d0",
+      "createdAt": 1529207770718
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "6981b349cab2899c967736372e1671a3",
+      "createdAt": 1529207770713
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.groupKey('data',\"Arnol\");"
+      ],
+      "id": "8d717336dcbd6c3fd6df705ed98e6d9f",
+      "createdAt": 1529207770705
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "d2b1cd0b966fe37b9f3bccb3387ba438",
+      "createdAt": 1529207770701
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.groupKey('data',\"Arnol\");"
+      ],
+      "id": "b4ec238316b295706925eb2707dc9139",
+      "createdAt": 1529207770696
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "e9c54d92be40b45f1ed46923fde04c7e",
+      "createdAt": 1529207770692
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  console.log('xxxxxxxx');"
+      ],
+      "id": "0f6e00fd42975eea272cfd6eb0b16d85",
+      "createdAt": 1529207770686
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "a1a6915fb2a62c7f3541d429dd60a25f",
+      "createdAt": 1529207770682
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "router.get('/data', function(req, res, next) {"
+      ],
+      "id": "5c7f58329907cb058af525d21de7c05a",
+      "createdAt": 1529207770676
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "4ce2e7d6b18bc58244a65676bd48de28",
+      "createdAt": 1529207770671
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        ""
+      ],
+      "id": "a11f54364c06b949c3f8140c9f60700c",
+      "createdAt": 1529207770664
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "44837e7e87c4ae6ccad4dacca2130cb7",
+      "createdAt": 1529207770659
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "});"
+      ],
+      "id": "319e6726e533079740b86f338c722f69",
+      "createdAt": 1529207770655
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "9ffe9284f8ffff8a8b7bab7f4cb275fb",
+      "createdAt": 1529207770652
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  res.render('index', { title: 'Express' });  "
+      ],
+      "id": "1bbe55a379fbe9883a94321d7160754b",
+      "createdAt": 1529207770646
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "aea1b7ca28dcf6e788fcdc8373f53f15",
+      "createdAt": 1529207770641
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // },3000)"
+      ],
+      "id": "a735b0ef2d28a7b431f0fd4be5e638e9",
+      "createdAt": 1529207770636
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "2b05d3ebb99506ec9ee4829a990d74e9",
+      "createdAt": 1529207770631
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  //   external();"
+      ],
+      "id": "cec252a80f10a8b85ff915bfc47ad980",
+      "createdAt": 1529207770625
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "f183a83aeefc656687b15633b785d9a3",
+      "createdAt": 1529207770621
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  //   // console.groupKeyEnd('index');        "
+      ],
+      "id": "2e1bd5e672728c09fdfd958f8c5f0c70",
+      "createdAt": 1529207770616
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "2e90ae8ab4fbcb835fbb8ab45781f242",
+      "createdAt": 1529207770609
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  //   console.groupKey('index',\"Imilla\",\"Pascual\",\"Negrito\");"
+      ],
+      "id": "6a15d7f0643801ded35bb380909d0401",
+      "createdAt": 1529207770599
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "87d853ab9e76fcededddc8b7a67787d2",
+      "createdAt": 1529207770589
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // setTimeout(()=>{"
+      ],
+      "id": "072bd2d792ed7218c00de33cb75e0265",
+      "createdAt": 1529207770586
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "ee67076f2465121da89d8bd3e660d766",
+      "createdAt": 1529207770581
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        ""
+      ],
+      "id": "be6223e69ac9ac8b199259bf96c3e553",
+      "createdAt": 1529207770573
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "c442e2be90aa1d4a1896b1cf87d51b55",
+      "createdAt": 1529207770570
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // result('hola Adios'); "
+      ],
+      "id": "760bd400dda5b7a4338d14b3fcf9db56",
+      "createdAt": 1529207770566
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "ddfb5c387b2fde6ad330753cfd6c1a92",
+      "createdAt": 1529207770562
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.groupKeyEnd('index');"
+      ],
+      "id": "4b0533fe28907716d9ffb79344c3601e",
+      "createdAt": 1529207770558
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "c3e334b604eb0856ee0416b8fbc2ec75",
+      "createdAt": 1529207770554
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.groupKey('index',\"Zelada Torrez\");"
+      ],
+      "id": "6f02692f34846106408e407747d6a731",
+      "createdAt": 1529207770551
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "785777f040fafd8727f6f138700787cb",
+      "createdAt": 1529207770548
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // cons();"
+      ],
+      "id": "2b63414bdd1b6cc6bfd01b6348804c3e",
+      "createdAt": 1529207770544
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "aa8b3830769535be1575be8942cfc3cc",
+      "createdAt": 1529207770541
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.log('2222222');"
+      ],
+      "id": "da2078be29ec80c8309842030161d467",
+      "createdAt": 1529207770534
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "2f5b3c3375d354a5829c997ca18b15c6",
+      "createdAt": 1529207770530
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.log('pppppp');"
+      ],
+      "id": "a701b62b26ddaa42b37dc907d27f63ba",
+      "createdAt": 1529207770521
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "dfd3c35a090242b1f3c148f8de015418",
+      "createdAt": 1529207770516
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.log('asdfasdf');"
+      ],
+      "id": "d551710cfc94801e4e51116eff0a6820",
+      "createdAt": 1529207770511
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "91fed13e840084399546ecb6d26e500b",
+      "createdAt": 1529207770507
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "  // console.groupKey('index',\"Adrian Pedro\");"
+      ],
+      "id": "97eb1b48669b1813a7efb72d99501572",
+      "createdAt": 1529207770503
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "dee3fefd402e88c43037a54eaa6b099d",
+      "createdAt": 1529207770498
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "router.get('/', function(req, res, next) {"
+      ],
+      "id": "38a7ebb270a0f517ac2acf8a63cf7dfb",
+      "createdAt": 1529207770494
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "646beafcce31d6a107f403818be1cba9",
+      "createdAt": 1529207770490
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "let cons = require('../consoleBrow/test');"
+      ],
+      "id": "feea2b9fd60a75b2609dc0dd7ddf4787",
+      "createdAt": 1529207770486
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "a6b8d9c81e881d45fbc5b0b5e27b2700",
+      "createdAt": 1529207770481
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "/* GET home page. */"
+      ],
+      "id": "001f3e7830959c0d828d6816d063249b",
+      "createdAt": 1529207770478
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "634c4aac8a93a219ac49f04da5069658",
+      "createdAt": 1529207770473
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        ""
+      ],
+      "id": "5201b5314f713a4e998d780236e3ce29",
+      "createdAt": 1529207770468
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "c7ecab166bf964ef9c962daa66a702cb",
+      "createdAt": 1529207770462
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "let external = require('./external');"
+      ],
+      "id": "daa1a03926f435a75888ddbdd9617c4a",
+      "createdAt": 1529207770456
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "cf453f695ce5b5e9045963dc8325841b",
+      "createdAt": 1529207770443
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "var router = express.Router();"
+      ],
+      "id": "19ba9c0fa2d7da4220355c890ab54daf",
+      "createdAt": 1529207770437
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "b0c0f9418cec8236b3a4db40a7336e72",
+      "createdAt": 1529207770431
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:80:21",
+      "data": [
+        "var express = require('express');"
+      ],
+      "id": "0c1e42e4ed8ad9e376c37aabdf5dcbc0",
+      "createdAt": 1529207770423
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:79:21",
+      "data": [
+        "line"
+      ],
+      "id": "c2d14fa175c257a0465ad09acb075794",
+      "createdAt": 1529207770420
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:92:21",
+      "data": [
+        "e('express');\nvar rou"
+      ],
+      "id": "98b30aaec75ef3a055c5ac6c85a9dace",
+      "createdAt": 1529207770413
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "a900c81e2388ac80b2a18de69b3de2d6",
+      "createdAt": 1529207770391
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:73:21",
+      "data": [
+        "e('express');\nvar rou"
+      ],
+      "id": "743b312d86dbc1247ecf7f98fbf82aa5",
+      "createdAt": 1529131800998
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "8352a46cc0e9d227319cd79a3db7febd",
+      "createdAt": 1529131800978
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:72:21",
+      "data": [
+        "e('express');\nvar rou"
+      ],
+      "id": "67d7fa28c3751ab36c1e039d5d3cb3d4",
+      "createdAt": 1529131779605
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "c0f9d6f701cf2594973b9c3496399caa",
+      "createdAt": 1529131779586
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "145807bbd81aa2872bc9dd42275dc2d6",
+      "createdAt": 1529131747071
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:65:9",
+      "data": "ReferenceError: readStream is not defined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:65:9\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "8139786a76cee8a82c008cbc709b451f",
+      "createdAt": 1529131731638
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "1d2a9c15232ca777f17e277fd3a69c8d",
+      "createdAt": 1529131731590
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "4081d1b924e07c4e58be8ec3700146fa",
+      "createdAt": 1529131594253
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "f9819bb1489ee08b782a1e3b267aca98",
+      "createdAt": 1529131431206
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:58:47",
+      "data": "TypeError: Cannot read property 'file' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:58:47\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "c6878d9b33f24e7a6cfa6ae8049c17e8",
+      "createdAt": 1529131412078
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "ebc11e36a7b290c668ca0bd790f3e4a1",
+      "createdAt": 1529131412058
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:58:47",
+      "data": "TypeError: Cannot read property 'file' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:58:47\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "fea397b8ab7a201caf8c6af1340d9f9a",
+      "createdAt": 1529131395303
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "68f59d6c60025eadf86bf22d85c6c323",
+      "createdAt": 1529131395259
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:58:47",
+      "data": "TypeError: Cannot read property 'file' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:58:47\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "9addda14c680a01596e720660080b466",
+      "createdAt": 1529131376658
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "52a9008ed3c7e78e301c731f8308a12b",
+      "createdAt": 1529131376628
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:58:47",
+      "data": "TypeError: Cannot read property 'file' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:58:47\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "28de66f3231c8e6bc8ee3deea1c233e3",
+      "createdAt": 1529131362006
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "f1668483cc8797399a22d33faa473a63",
+      "createdAt": 1529131361976
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39",
+      "data": "TypeError: Cannot read property 'path' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "a1061dea147ddd7e6545e63d06f8c790",
+      "createdAt": 1529131273608
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "45d75913e1ae6112e3304d39d2b164c5",
+      "createdAt": 1529131273557
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39",
+      "data": "TypeError: Cannot read property 'path' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "2b4ce1e6abe9eea8087d370b18281124",
+      "createdAt": 1529130534045
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "243ce617f408b2c2c4a75c499a4ca518",
+      "createdAt": 1529130533987
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39",
+      "data": "TypeError: Cannot read property 'path' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "cff2be48c77536d025b838f93e6ce7cd",
+      "createdAt": 1529130423968
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "859693a7b2b832c621d10773af8bcdb5",
+      "createdAt": 1529130423891
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39",
+      "data": "TypeError: Cannot read property 'path' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "caae050a97777f307f85a29c49a210e9",
+      "createdAt": 1529130411508
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "2f9c2c1098924fde91f22a320d85f740",
+      "createdAt": 1529130411499
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39",
+      "data": "TypeError: Cannot read property 'path' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "abe7681fc8f3d1a8f660d5a3ffd43d1e",
+      "createdAt": 1529130392903
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "789166b44c24abbfdf874c2dc1c0cc12",
+      "createdAt": 1529130392881
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39",
+      "data": "TypeError: Cannot read property 'path' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "332933f03b298a37c16fbfc78cfa1588",
+      "createdAt": 1529130361161
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "3c9dc183f19f3cc8f9406edf2e0ab9c9",
+      "createdAt": 1529130361048
+    },
+    {
+      "type": "error",
+      "line": "JSON.parse (<anonymous>)",
+      "data": "SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:55:26\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)",
+      "id": "be2712e9b41802721dae5fe50efa0cda",
+      "createdAt": 1529130321524
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "f2c4361cff378def7ad96526321b6780",
+      "createdAt": 1529130321479
+    },
+    {
+      "type": "error",
+      "line": "JSON.stringify (<anonymous>)",
+      "data": "TypeError: Converting circular structure to JSON\n    at JSON.stringify (<anonymous>)\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:55:26\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)",
+      "id": "e8e57cfe360418cfcdafc22a4f085002",
+      "createdAt": 1529130292146
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "20553036b3ffe44546a5d46bc732d043",
+      "createdAt": 1529130292124
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39",
+      "data": "TypeError: Cannot read property 'path' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "54400c6d39016f42bb019e858603de72",
+      "createdAt": 1529130273320
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:55:17",
+      "data": [
+        null
+      ],
+      "id": "9e47260946de4c2ae15bb38b7b1e7670",
+      "createdAt": 1529130273259
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "e879b357281dc4e6343acd0df8481258",
+      "createdAt": 1529130273251
+    },
+    {
+      "type": "error",
+      "line": "JSON.stringify (<anonymous>)",
+      "data": "TypeError: Converting circular structure to JSON\n    at JSON.stringify (<anonymous>)\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:55:26\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)",
+      "id": "dd30524dac26b43af9e67b595466555d",
+      "createdAt": 1529130242864
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "0df033e55638e4d7328af63703eebe17",
+      "createdAt": 1529130242853
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "4a1e59a2b1e410faa25eb9f42406ee7b",
+      "createdAt": 1529130219918
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39",
+      "data": "TypeError: Cannot read property 'path' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:56:39\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "bb77c8de6b4b7c6fc9221aad07a20e3d",
+      "createdAt": 1529130209322
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:55:17",
+      "data": [
+        null
+      ],
+      "id": "6337c1a410c6b0d3f2f1728ce1a7a888",
+      "createdAt": 1529130209300
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "xxxasdasdasd"
+      ],
+      "id": "1a367de7d40be2576131dd8d0dd2cc6e",
+      "createdAt": 1529130209293
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:55:39",
+      "data": "TypeError: Cannot read property 'path' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:55:39\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "612941389a30c9b36d469e090c83325e",
+      "createdAt": 1529130185857
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "asdasdasd"
+      ],
+      "id": "4dc4a9d3728ff31ec0c360bb24d68d38",
+      "createdAt": 1529130185845
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:55:39",
+      "data": "TypeError: Cannot read property 'path' of undefined\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:55:39\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "7f0265bb076a67f1d17989ababd8e6d2",
+      "createdAt": 1529130119030
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "asdasdasd"
+      ],
+      "id": "3c48c6bcbd162aa6e32d7e7ce8a35873",
+      "createdAt": 1529130119014
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:54:17",
+      "data": [
+        "asdasdasd"
+      ],
+      "id": "676094e67d39cd9688ed551a8c60f01a",
+      "createdAt": 1529129853678
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:53:17",
+      "data": [
+        "asdasdasd"
+      ],
+      "id": "5d3e920237b882d202e4d582b5e7a863",
+      "createdAt": 1529129781752
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:53:17",
+      "data": [
+        "asdasdasd"
+      ],
+      "id": "88fee5af6afdba050165c9b70e4410bf",
+      "createdAt": 1529129721825
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:53:17",
+      "data": [
+        "asdasdasd"
+      ],
+      "id": "9e04a4ba54f0fcf5fa2b37fd215ec623",
+      "createdAt": 1529129555893
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "a3eae0b0d2c1627829792c454c30d365",
+      "createdAt": 1529128065670
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "cb81f04659f127eb4aa4931c74d81b69",
+      "createdAt": 1529128035721
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "2162f6029a607b0492fc5184ccbdbc7b",
+      "createdAt": 1529128032730
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "d325ac15fa08167ed4be5540fbf9ad23",
+      "createdAt": 1529128030813
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "d61613ddaea43b7ab7cae4c2f45910b5",
+      "createdAt": 1529128029207
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_consoles/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "896585dce8d05742a5154793451fb771",
+      "createdAt": 1529127928671
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_consoles/favicon.ico\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "6497502024c264f2980bbee2c7dd9850",
+      "createdAt": 1529127927714
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_consoles/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "f44f07daf62a712420abd9a49ae10d80",
+      "createdAt": 1529127926400
+    },
+    {
+      "type": "error",
+      "line": "ServerResponse.sendFile (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/response.js:404:11)",
+      "data": "TypeError: path must be absolute or specify root to res.sendFile\n    at ServerResponse.sendFile (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/response.js:404:11)\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:48:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)",
+      "id": "183c8e3b1756a133e6801e86e7f1e818",
+      "createdAt": 1529127877000
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:47:17",
+      "data": [
+        "asdasdasd"
+      ],
+      "id": "3ec6272ff48058485bf14d69aadba951",
+      "createdAt": 1529127876996
+    },
+    {
+      "type": "error",
+      "line": "ServerResponse.sendFile (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/response.js:404:11)",
+      "data": "TypeError: path must be absolute or specify root to res.sendFile\n    at ServerResponse.sendFile (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/response.js:404:11)\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:48:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)",
+      "id": "5145b05677068b18ea056b30f43fee06",
+      "createdAt": 1529127875713
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:47:17",
+      "data": [
+        "asdasdasd"
+      ],
+      "id": "d7d3e1de5beb6f5d986959fa85115dc7",
+      "createdAt": 1529127875684
+    },
+    {
+      "type": "error",
+      "line": "ServerResponse.sendFile (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/response.js:404:11)",
+      "data": "TypeError: path must be absolute or specify root to res.sendFile\n    at ServerResponse.sendFile (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/response.js:404:11)\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:48:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)",
+      "id": "508afe38152656e49759d01ef724469d",
+      "createdAt": 1529127859147
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:47:17",
+      "data": [
+        "asdasdasd"
+      ],
+      "id": "17bb9ca02baff74250c2473f29c887cf",
+      "createdAt": 1529127859129
+    },
+    {
+      "type": "error",
+      "line": "ServerResponse.sendFile (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/response.js:404:11)",
+      "data": "TypeError: path must be absolute or specify root to res.sendFile\n    at ServerResponse.sendFile (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/response.js:404:11)\n    at /Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:48:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:131:13)\n    at Route.dispatch (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:277:22\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)",
+      "id": "c486eab2dcb054b46be2af32772fc503",
+      "createdAt": 1529127848947
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:47:17",
+      "data": [
+        "asdasdasd"
+      ],
+      "id": "8f34358fe89a30a290b227ad39d060d4",
+      "createdAt": 1529127848931
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_consoles/\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "20e45db5c4d386ae7a80f7777f6af313",
+      "createdAt": 1529127806310
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "556786d6a7835ea27e8d65dd902f8071",
+      "createdAt": 1529127801456
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "123cb93ed3e8545dec8b94830e68e519",
+      "createdAt": 1529127799952
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "5ab9a04e1e13462f8e618b40879a818a",
+      "createdAt": 1529127595829
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "f4f7d229b68baba3aca1f795937e2f8e",
+      "createdAt": 1529127594042
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "aae0a64b5121d61c15405f31a53b07da",
+      "createdAt": 1529127592473
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "064d06879af2577408787a44edd5ede3",
+      "createdAt": 1529127547021
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "b4300ba858d13837d58df4973b193673",
+      "createdAt": 1529127497431
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "4709fa41e4a7f8b19ac42034a761cb9b",
+      "createdAt": 1529127421290
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "5f802dd43e2d70c532c94114853afd30",
+      "createdAt": 1529127419734
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "41f475f7a302d6465e9d24b8371670e5",
+      "createdAt": 1529127343096
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/favicon.ico\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "36a332a056a85b62b32d3151bf68bfe3",
+      "createdAt": 1529127342289
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/vendor/font-awesome/css/font-awesome.min.css\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "48a1a5a13773ca1197a84511f342abb4",
+      "createdAt": 1529127341283
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "388f4aa0cf79e3912e22f43ab8567182",
+      "createdAt": 1529127091990
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "bd7d08ec3881b452e11b4da6f6ba6277",
+      "createdAt": 1529126280942
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "d80dc418db735f764fcf5b24c255ce26",
+      "createdAt": 1529126271623
+    },
+    {
       "type": "error",
       "line": "/Users/iZel/www/workChygui/serveBrow/app.js:36:13",
       "data": "Error: Route Not Found /mycodebad/serverBrow/static/js/main.38313dea.js\n    at /Users/iZel/www/workChygui/serveBrow/app.js:36:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
@@ -2251,6 +4006,308 @@
     }
   ],
   "middleware": [
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "io=C_9pl7WMdnhCMGJRAAAE"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "title": "Express"
+      },
+      "url": "http://localhost:3000/",
+      "id": "882b07efe316b514db8fe1dbb832a66c",
+      "createdAt": 1529218155672
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "io=HwK5xH8oHH6gMCIJAABK"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "title": "Express"
+      },
+      "url": "http://localhost:3000/",
+      "id": "4157e1340fb7d1777cabe659cd9bce89",
+      "createdAt": 1529217621147
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "io=1XU4iQWc2eIxWdfRAABF"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "title": "Express",
+        "_locals": {}
+      },
+      "url": "http://localhost:3000/",
+      "id": "6142adea9352e9d2196436503d9e87ad",
+      "createdAt": 1529217404521
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "io=kFmAz0vivTOXmv9oAAAw"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "title": "Express",
+        "_locals": {}
+      },
+      "url": "http://localhost:3000/",
+      "id": "7d53aa9ac2ee6ca11c021d21af0643ab",
+      "createdAt": 1529217302812
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "io=Vcr2GniGWps8R17xAAAQ"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "title": "Express",
+        "_locals": {}
+      },
+      "url": "http://localhost:3000/",
+      "id": "052576af0c67f6ecd6480c80cee9745b",
+      "createdAt": 1529217195202
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "io=AXgrc8YCW_sHK6I0AAAX"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "title": "Express"
+      },
+      "url": "http://localhost:3000/",
+      "id": "7a85da9b56765eb07cf01196b27f5e2f",
+      "createdAt": 1529217160387
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "io=RQakhkEhswvF6cagAAAR"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "e4a5b2dc3d58d40dc70e5ef230c67c51",
+      "createdAt": 1529215771799
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=0x9IHZTAgxijTlwFAAAC"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "bc9e7c6ebb9812753bc4d549da48d084",
+      "createdAt": 1529128065674
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=0ANcIN8zXIzW39rDAAAE"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "d73526540818820155b31261c8b842af",
+      "createdAt": 1529127091994
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "referer": "http://localhost:3000/_console/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=EiNEof3vdnQPZxC6AAAC"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "1188f833e9b5bcf39cb104a32c5b1bf7",
+      "createdAt": 1529126280947
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=XTPXaA_aIuMmMtk_AAAB"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "a8c514cc3286da17f6f86b230368cfce",
+      "createdAt": 1529126271629
+    },
     {
       "status": 200,
       "headers": {
