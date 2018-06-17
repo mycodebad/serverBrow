@@ -47,7 +47,7 @@ module.exports = function (eventEmitter,nameDb){
             let start=lineNumber-limit,
                 end=limit+lineNumber        
             let str='';
-            
+            let codeJson=[];
             let htmlTable = `<table style="white-space:pre;border-collapse: collapse;min-width:600px" border="0">
             <tr style="background:#2F333D;color:white;">
               <th style="border-right: 1px solid #dddddd;padding:7px 12px">#</th>
@@ -72,6 +72,14 @@ module.exports = function (eventEmitter,nameDb){
                     <td style="border-right: 1px solid #dddddd;padding:4px;text-align: center">${count}</td>
                     <td style="padding:4px;">${line}</td>          
                   </tr>`
+
+                  codeJson.push(
+                    {
+                        "numLine":count, // numero de linea
+                        "textLine":line, // texto de la linea
+                        "isThisLine":count == lineNumber // si es la linea que manda el console
+                    }
+                  )
                 }            
             })
             
@@ -81,7 +89,8 @@ module.exports = function (eventEmitter,nameDb){
                 //     codeHtml:htmlTable
                 // });
                 socket.emit('view-file',{
-                    codeHtml:htmlTable
+                    codeHtml:htmlTable,
+                    codeJson:codeJson
                 })
             })
         })

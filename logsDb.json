@@ -2,6 +2,15 @@
   "logs": [
     {
       "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "4c3d49bdc7d5c5abe738e4a8e251d4b7",
+      "createdAt": 1529218883450
+    },
+    {
+      "type": "log",
       "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/middleware.js:53:17",
       "data": [
         "xxxasdasdasd"
@@ -4011,6 +4020,59 @@
       "headers": {
         "host": "localhost:3000",
         "connection": "keep-alive",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "io=tey6ZGDmXUvarzdbAAAB"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "title": "Express"
+      },
+      "url": "http://localhost:3000/",
+      "id": "1151d2adfd730823da54c41efbd45361",
+      "createdAt": 1529220268508
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "io=7uNCBfGw1Arla42fAAAP"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "1c3e81f1cb11c1b4b3a45f6595c3ee02",
+      "createdAt": 1529218883454
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
         "cache-control": "max-age=0",
         "upgrade-insecure-requests": "1",
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
@@ -4027,7 +4089,8 @@
         "query": null
       },
       "response": {
-        "title": "Express"
+        "title": "Express",
+        "_locals": {}
       },
       "url": "http://localhost:3000/",
       "id": "882b07efe316b514db8fe1dbb832a66c",

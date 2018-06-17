@@ -71,7 +71,7 @@ y se conecta en los canales,
 
 ```
 
-###Interacción
+### Interacción
 
 Para una mejor interacción con el cliente se proporciona el servicio de paginación
 
@@ -112,3 +112,44 @@ Donde la respuesta tiene un como resultado:
     "total_pages":"Cantidad de paginas que se podrian consumir"
 }
 ```
+## NUEVO
+
+Se implemento un visualizador del archivo de donde se esta haciendo un console  
+
+Cuando se realiza un click en la imagen de Codigo en la parte izquierda de la lista de Logs (</>), este deveria de emitir una peticion al servidorr en el canal "file" enviandole como parametro linea de codigo del log, como se muestra en el siguiente código.
+
+```
+socket.emit('file'{
+    line:'/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11'
+    })
+```
+
+Al hacer esto el servidor enviara una repuesta en el canal de eschucha llamado "view-file".
+
+```
+socket.on('view-file',function (data) {           
+            let content = document.getElementById('content');
+            content.innerHTML=data.codeHtml                                       
+        });
+```
+Retornando 1 argumento ,que contiene 2 parametros
+```
+    "codeHtml":""    // Este es una pequeña tabla en codigo HTML para q se inserte donde se desee,
+
+    "codeJson":[]   // Este sera un array todos los datos con los q se construyo la tabla del anterior parametro.
+```
+
+El parametro "codeJson" nos sirve para poder hacer en el front un tabla mas personalizada con los datos de el numero de linea ,texto de la linea y si es la linea que buscamos, este parametro que es un array esta compuesto de objetos con este formato :
+```
+{
+    "numLine":21, // numero de linea
+    "textLine":"adsadsasdasd", // texto de la linea
+    "isThisLine":true || false // si es la linea que manda el console
+}
+```
+Actualmente manda un rango de 3, eso quiere decir q mandara 3 lineas que estan arriba del numero de linea que solicitamos y 3 lineas posteriores a la linea que solicitamos
+
+Para ver el ejemplo funcionando, heche un vistaso  a la archivo index.ejs de la carpeta views
+
+
+
