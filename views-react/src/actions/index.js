@@ -81,11 +81,8 @@ const onClickCode = LineCode => {
   console.log("onClickCode+++>", LineCode);
   return async function(dispatch) {
     var socket = io("http://localhost:8888");
-    //  await socket.emit("file", {
-    //     line: LineCode
-    //   });
     await socket.emit("file", {
-      line: "/home/gd/Development/MyCodeBad/serverBrow/routes/index.js:26:11"
+      line: LineCode
     });
     dispatch({
       type: Actions.EMIT_FILE // "EMIT_FILE",

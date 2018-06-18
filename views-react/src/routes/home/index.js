@@ -9,6 +9,7 @@ import PropTypes from "prop-types";
 import io from "socket.io-client";
 import ContainerListItem from "../../components/ListItem/ContainerListItem";
 import ContainerList from "../../components/List/ContainerList";
+import Modal from "../../components/Modal/Modal";
 import store from "../../store";
 import { changeItems, emitPagination, changeRequests } from "../../actions";
 import "./home.scss";
@@ -66,11 +67,17 @@ class Home extends Component {
 
   onViewFile(Data) {
     console.log("onViewFile", Data);
+    this.refs.ModalViewFile.setState({
+      openModal: true,
+      contentHtml: Data.codeHtml,
+      contentJson: Data.codeJson
+    });
   }
   render() {
     return (
       <div className="containerHome">
         <div className="container-fluid">
+          <Modal ref="ModalViewFile" />
           <div className="row">
             <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
               <ContainerListItem ref="ListaConsolas" title={"Lista de Logs"} />

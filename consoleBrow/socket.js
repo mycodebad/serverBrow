@@ -49,7 +49,7 @@ module.exports = function (eventEmitter,nameDb){
                 end=limit+lineNumber        
             let str='';
             let codeJson=[];
-            let htmlTable = `<table style="white-space:pre;border-collapse: collapse;min-width:600px" border="0">
+            let htmlTable = `<table style="white-space:pre;border-collapse: collapse;width:100%" border="0">
             <tr style="background:#2F333D;color:white;">
               <th style="border-right: 1px solid #dddddd;padding:7px 12px">#</th>
               <th style="padding:7px">Code</th>          
