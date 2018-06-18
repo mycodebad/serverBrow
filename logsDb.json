@@ -6,6 +6,22 @@
       "data": [
         "xxxxxxxx"
       ],
+      "id": "ff02eed318609da01a91f848197b51fa",
+      "createdAt": 1529291853488
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /favicon.ico\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "487b4cefd3b7ef1a5d2beda3fee07246",
+      "createdAt": 1529251745815
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
       "id": "4c3d49bdc7d5c5abe738e4a8e251d4b7",
       "createdAt": 1529218883450
     },
@@ -4015,6 +4031,88 @@
     }
   ],
   "middleware": [
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=vAfgH9LNaUWZ4sufAAAS"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "128fc97c84abd5db3a9f91a849457e29",
+      "createdAt": 1529291853495
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=MYRFadisiD0FSkg1AAAN"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "title": "Express",
+        "_locals": {}
+      },
+      "url": "http://localhost:3000/",
+      "id": "41be065f097f71e5509c4b1ef33cbe40",
+      "createdAt": 1529278484153
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "title": "Express",
+        "_locals": {}
+      },
+      "url": "http://localhost:3000/",
+      "id": "9c3307c0c4d8eda297d536b62a9b6ae8",
+      "createdAt": 1529251744805
+    },
     {
       "status": 200,
       "headers": {
