@@ -6,6 +6,175 @@
       "data": [
         "xxxxxxxx"
       ],
+      "id": "be4bf28a43ef2f49dadc109070d15c7a",
+      "createdAt": 1529294308539
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "1fe6b3f4cec5f42d6b31344a86c8fe98",
+      "createdAt": 1529294214985
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/socket.js:92:25",
+      "data": [
+        "emit ",
+        "<table style=\"white-space:pre;border-collapse: collapse;min-width:600px\" border=\"0\">\n            <tr style=\"background:#2F333D;color:white;\">\n              <th style=\"border-right: 1px solid #dddddd;padding:7px 12px\">#</th>\n              <th style=\"padding:7px\">Code</th>          \n            </tr>\n          <tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">89</td>\n                    <td style=\"padding:4px;\">                // res.json({</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">90</td>\n                    <td style=\"padding:4px;\">                //     codeHtml:htmlTable</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">91</td>\n                    <td style=\"padding:4px;\">                // });</td>          \n                  </tr><tr style=\"background:#E5FFEF;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">92</td>\n                    <td style=\"padding:4px;\">                console.log('emit ' ,htmlTable)</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">93</td>\n                    <td style=\"padding:4px;\">                // io.sockets.emit('view-file',{</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">94</td>\n                    <td style=\"padding:4px;\">                //     codeHtml:htmlTable,</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">95</td>\n                    <td style=\"padding:4px;\">                //     codeJson:codeJson</td>          \n                  </tr></table>"
+      ],
+      "id": "0dc66cdf6c9a93200503173bd353d70e",
+      "createdAt": 1529293911374
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/socket.js:92:25",
+      "data": [
+        "emit ",
+        "<table style=\"white-space:pre;border-collapse: collapse;min-width:600px\" border=\"0\">\n            <tr style=\"background:#2F333D;color:white;\">\n              <th style=\"border-right: 1px solid #dddddd;padding:7px 12px\">#</th>\n              <th style=\"padding:7px\">Code</th>          \n            </tr>\n          <tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">89</td>\n                    <td style=\"padding:4px;\">                // res.json({</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">90</td>\n                    <td style=\"padding:4px;\">                //     codeHtml:htmlTable</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">91</td>\n                    <td style=\"padding:4px;\">                // });</td>          \n                  </tr><tr style=\"background:#E5FFEF;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">92</td>\n                    <td style=\"padding:4px;\">                console.log('emit ' ,htmlTable)</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">93</td>\n                    <td style=\"padding:4px;\">                // io.sockets.emit('view-file',{</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">94</td>\n                    <td style=\"padding:4px;\">                //     codeHtml:htmlTable,</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">95</td>\n                    <td style=\"padding:4px;\">                //     codeJson:codeJson</td>          \n                  </tr></table>"
+      ],
+      "id": "4de6cabaa896983be65687862d2c1b21",
+      "createdAt": 1529293888126
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/socket.js:92:25",
+      "data": [
+        "emit ",
+        "<table style=\"white-space:pre;border-collapse: collapse;min-width:600px\" border=\"0\">\n            <tr style=\"background:#2F333D;color:white;\">\n              <th style=\"border-right: 1px solid #dddddd;padding:7px 12px\">#</th>\n              <th style=\"padding:7px\">Code</th>          \n            </tr>\n          <tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">23</td>\n                    <td style=\"padding:4px;\">});</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">24</td>\n                    <td style=\"padding:4px;\"></td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">25</td>\n                    <td style=\"padding:4px;\">router.get('/data', function(req, res, next) {</td>          \n                  </tr><tr style=\"background:#E5FFEF;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">26</td>\n                    <td style=\"padding:4px;\">  console.log('xxxxxxxx');</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">27</td>\n                    <td style=\"padding:4px;\">  // console.groupKey('data',\"Arnol\");</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">28</td>\n                    <td style=\"padding:4px;\">  // console.groupKey('data',\"Arnol\");</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">29</td>\n                    <td style=\"padding:4px;\">  // console.groupKey('data',\"Arnol\");</td>          \n                  </tr></table>"
+      ],
+      "id": "8dfa7ef48b2bd43f8797c279720a2200",
+      "createdAt": 1529293876783
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "8b8c695abc00664585e9a802044d3a0f",
+      "createdAt": 1529293869258
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/socket.js:92:25",
+      "data": [
+        "emit ",
+        "<table style=\"white-space:pre;border-collapse: collapse;min-width:600px\" border=\"0\">\n            <tr style=\"background:#2F333D;color:white;\">\n              <th style=\"border-right: 1px solid #dddddd;padding:7px 12px\">#</th>\n              <th style=\"padding:7px\">Code</th>          \n            </tr>\n          <tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">89</td>\n                    <td style=\"padding:4px;\">                // res.json({</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">90</td>\n                    <td style=\"padding:4px;\">                //     codeHtml:htmlTable</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">91</td>\n                    <td style=\"padding:4px;\">                // });</td>          \n                  </tr><tr style=\"background:#E5FFEF;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">92</td>\n                    <td style=\"padding:4px;\">                console.log('emit ' ,htmlTable)</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">93</td>\n                    <td style=\"padding:4px;\">                // io.sockets.emit('view-file',{</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">94</td>\n                    <td style=\"padding:4px;\">                //     codeHtml:htmlTable,</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">95</td>\n                    <td style=\"padding:4px;\">                //     codeJson:codeJson</td>          \n                  </tr></table>"
+      ],
+      "id": "e9ac1bc17f13747c015704d368e43a9d",
+      "createdAt": 1529293857270
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/socket.js:92:25",
+      "data": [
+        "emit ",
+        "<table style=\"white-space:pre;border-collapse: collapse;min-width:600px\" border=\"0\">\n            <tr style=\"background:#2F333D;color:white;\">\n              <th style=\"border-right: 1px solid #dddddd;padding:7px 12px\">#</th>\n              <th style=\"padding:7px\">Code</th>          \n            </tr>\n          <tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">89</td>\n                    <td style=\"padding:4px;\">                // res.json({</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">90</td>\n                    <td style=\"padding:4px;\">                //     codeHtml:htmlTable</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">91</td>\n                    <td style=\"padding:4px;\">                // });</td>          \n                  </tr><tr style=\"background:#E5FFEF;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">92</td>\n                    <td style=\"padding:4px;\">                console.log('emit ' ,htmlTable)</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">93</td>\n                    <td style=\"padding:4px;\">                // io.sockets.emit('view-file',{</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">94</td>\n                    <td style=\"padding:4px;\">                //     codeHtml:htmlTable,</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">95</td>\n                    <td style=\"padding:4px;\">                //     codeJson:codeJson</td>          \n                  </tr></table>"
+      ],
+      "id": "2b3972e77ff28b438740f594727b291f",
+      "createdAt": 1529293856682
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/socket.js:92:25",
+      "data": [
+        "emit ",
+        "<table style=\"white-space:pre;border-collapse: collapse;min-width:600px\" border=\"0\">\n            <tr style=\"background:#2F333D;color:white;\">\n              <th style=\"border-right: 1px solid #dddddd;padding:7px 12px\">#</th>\n              <th style=\"padding:7px\">Code</th>          \n            </tr>\n          <tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">89</td>\n                    <td style=\"padding:4px;\">                // res.json({</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">90</td>\n                    <td style=\"padding:4px;\">                //     codeHtml:htmlTable</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">91</td>\n                    <td style=\"padding:4px;\">                // });</td>          \n                  </tr><tr style=\"background:#E5FFEF;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">92</td>\n                    <td style=\"padding:4px;\">                console.log('emit ' ,htmlTable)</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">93</td>\n                    <td style=\"padding:4px;\">                io.sockets.emit('view-file',{</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">94</td>\n                    <td style=\"padding:4px;\">                    codeHtml:htmlTable,</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">95</td>\n                    <td style=\"padding:4px;\">                    codeJson:codeJson</td>          \n                  </tr></table>"
+      ],
+      "id": "b4c028de83c1356133d649dfba276bc3",
+      "createdAt": 1529293823602
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/socket.js:92:25",
+      "data": [
+        "emit ",
+        "<table style=\"white-space:pre;border-collapse: collapse;min-width:600px\" border=\"0\">\n            <tr style=\"background:#2F333D;color:white;\">\n              <th style=\"border-right: 1px solid #dddddd;padding:7px 12px\">#</th>\n              <th style=\"padding:7px\">Code</th>          \n            </tr>\n          <tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">23</td>\n                    <td style=\"padding:4px;\">});</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">24</td>\n                    <td style=\"padding:4px;\"></td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">25</td>\n                    <td style=\"padding:4px;\">router.get('/data', function(req, res, next) {</td>          \n                  </tr><tr style=\"background:#E5FFEF;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">26</td>\n                    <td style=\"padding:4px;\">  console.log('xxxxxxxx');</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">27</td>\n                    <td style=\"padding:4px;\">  // console.groupKey('data',\"Arnol\");</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">28</td>\n                    <td style=\"padding:4px;\">  // console.groupKey('data',\"Arnol\");</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">29</td>\n                    <td style=\"padding:4px;\">  // console.groupKey('data',\"Arnol\");</td>          \n                  </tr></table>"
+      ],
+      "id": "2337a98df92ea2f21e94ddbb740be5b9",
+      "createdAt": 1529293819285
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "c228d8540355fd3d1b0982d8e072f6a7",
+      "createdAt": 1529293813508
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "e4b19bb83639b886d1b596b959949f16",
+      "createdAt": 1529293781464
+    },
+    {
+      "type": "error",
+      "line": "/Users/iZel/www/workChygui/serveBrow/app.js:39:13",
+      "data": "Error: Route Not Found /_console/static/js/main.db45cfb6.js.map\n    at /Users/iZel/www/workChygui/serveBrow/app.js:39:13\n    at Layer.handle [as handle_request] (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:312:13)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:280:7\n    at Function.process_params (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:330:12)\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:271:10)\n    at /Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:618:15\n    at next (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:256:14)\n    at Function.handle (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:176:3)\n    at router (/Users/iZel/www/workChygui/serveBrow/node_modules/express/lib/router/index.js:46:12)",
+      "id": "8ad467682b320b3d3a4fe04b80b1dbdf",
+      "createdAt": 1529293774882
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/socket.js:92:25",
+      "data": [
+        "emit ",
+        "<table style=\"white-space:pre;border-collapse: collapse;min-width:600px\" border=\"0\">\n            <tr style=\"background:#2F333D;color:white;\">\n              <th style=\"border-right: 1px solid #dddddd;padding:7px 12px\">#</th>\n              <th style=\"padding:7px\">Code</th>          \n            </tr>\n          <tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">89</td>\n                    <td style=\"padding:4px;\">                // res.json({</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">90</td>\n                    <td style=\"padding:4px;\">                //     codeHtml:htmlTable</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">91</td>\n                    <td style=\"padding:4px;\">                // });</td>          \n                  </tr><tr style=\"background:#E5FFEF;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">92</td>\n                    <td style=\"padding:4px;\">                console.log('emit ' ,htmlTable)</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">93</td>\n                    <td style=\"padding:4px;\">                io.sockets.emit('view-file',{</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">94</td>\n                    <td style=\"padding:4px;\">                    codeHtml:htmlTable,</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">95</td>\n                    <td style=\"padding:4px;\">                    codeJson:codeJson</td>          \n                  </tr></table>"
+      ],
+      "id": "9a8d1080940a4132839458b837cf951b",
+      "createdAt": 1529293093005
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/consoleBrow/socket.js:92:25",
+      "data": [
+        "emit ",
+        "<table style=\"white-space:pre;border-collapse: collapse;min-width:600px\" border=\"0\">\n            <tr style=\"background:#2F333D;color:white;\">\n              <th style=\"border-right: 1px solid #dddddd;padding:7px 12px\">#</th>\n              <th style=\"padding:7px\">Code</th>          \n            </tr>\n          <tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">23</td>\n                    <td style=\"padding:4px;\">});</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">24</td>\n                    <td style=\"padding:4px;\"></td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">25</td>\n                    <td style=\"padding:4px;\">router.get('/data', function(req, res, next) {</td>          \n                  </tr><tr style=\"background:#E5FFEF;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">26</td>\n                    <td style=\"padding:4px;\">  console.log('xxxxxxxx');</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">27</td>\n                    <td style=\"padding:4px;\">  // console.groupKey('data',\"Arnol\");</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">28</td>\n                    <td style=\"padding:4px;\">  // console.groupKey('data',\"Arnol\");</td>          \n                  </tr><tr style=\"background:#ffffff;\">\n                    <td style=\"border-right: 1px solid #dddddd;padding:4px;text-align: center\">29</td>\n                    <td style=\"padding:4px;\">  // console.groupKey('data',\"Arnol\");</td>          \n                  </tr></table>"
+      ],
+      "id": "db6504af72b63770a7a72c6616623771",
+      "createdAt": 1529292929380
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "c6326e0ad0a23d22c8d14c4096029848",
+      "createdAt": 1529292922246
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "cf6bee0ac497c6254453ce4728858bc0",
+      "createdAt": 1529292741881
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
+      "id": "73df2ae54f8663ebb307a84f28dda55b",
+      "createdAt": 1529292273402
+    },
+    {
+      "type": "log",
+      "line": "/Users/iZel/www/workChygui/serveBrow/routes/index.js:26:11",
+      "data": [
+        "xxxxxxxx"
+      ],
       "id": "ff02eed318609da01a91f848197b51fa",
       "createdAt": 1529291853488
     },
@@ -4031,6 +4200,230 @@
     }
   ],
   "middleware": [
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=qaZZeCNjtQ8iNHluAAAL"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "bdbb1b0325fb9a2e35b98e02aa7904fd",
+      "createdAt": 1529294308545
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=EeTiXbZQ4S4Luzf6AAAc"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "4d8309b82d96a5b855225d6d57928462",
+      "createdAt": 1529294215040
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=pGHAtvae4cCGuDoxAAAa"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "3603dcd12c2de66c6e5d5169ea68cd3a",
+      "createdAt": 1529293869265
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=EarPL9ltBqCpqcOHAAAN"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "b479cd4be6cb0483d0f3fea3e4e3113c",
+      "createdAt": 1529293813519
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=OI69FRRmrZfQgy9vAAAR"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "a0b5a08e028f2c73fc3a9f26700cc1b8",
+      "createdAt": 1529293781469
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=DkZxf1lKyaT-FdY1AAAH"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "a0856f39e89b6c38eb431fa3c09a3561",
+      "createdAt": 1529292922252
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=Ehc8298TJ-DyvZjiAAAK"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "3af89af5a66d7b659f5a2de125e43135",
+      "createdAt": 1529292741887
+    },
+    {
+      "status": 200,
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cookie": "_ga=GA1.1.1511251837.1518141541; io=In9x1-L6WzlafQR7AAAD"
+      },
+      "host": "localhost:3000",
+      "method": "GET",
+      "request": {
+        "body": null,
+        "params": null,
+        "query": null
+      },
+      "response": {
+        "name": "Adrian",
+        "lastName": "Zelada Torrez"
+      },
+      "url": "http://localhost:3000/data",
+      "id": "c1bad3e2d96d730d351360b1790b0787",
+      "createdAt": 1529292273408
+    },
     {
       "status": 200,
       "headers": {

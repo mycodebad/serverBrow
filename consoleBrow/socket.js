@@ -36,6 +36,7 @@ module.exports = function (eventEmitter,nameDb){
         });  
         
         socket.on('file',(data)=>{
+            console.warn('file',data);
             if(!data.line){
                 return false;
             }
@@ -88,10 +89,15 @@ module.exports = function (eventEmitter,nameDb){
                 // res.json({
                 //     codeHtml:htmlTable
                 // });
-                socket.emit('view-file',{
+                // console.log('emit ' ,htmlTable)
+                io.sockets.emit('view-file',{
                     codeHtml:htmlTable,
                     codeJson:codeJson
                 })
+                // socket.emit('view-file',{
+                //     codeHtml:htmlTable,
+                //     codeJson:codeJson
+                // })
             })
         })
     });
