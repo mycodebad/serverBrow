@@ -35,7 +35,13 @@ class ListItem extends Component {
     if (this.validateItems()) {
       let { items } = this.props;
       return _.map(items, pItemData => {
-        return <Item {...pItemData} key={uuid.v4()} />;
+        return (
+          <Item
+            {...pItemData}
+            key={uuid.v4()}
+            onClickCode={this.props.onClickCode}
+          />
+        );
       });
     } else {
       return (
@@ -126,7 +132,8 @@ ListItem.propTypes = {
   textPrevious: PropTypes.string,
   textNext: PropTypes.string,
   cleanList: PropTypes.func,
-  selectedPage: PropTypes.func
+  selectedPage: PropTypes.func,
+  onClickCode: PropTypes.func
 };
 
 ListItem.defaultProps = {

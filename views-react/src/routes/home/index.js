@@ -21,14 +21,15 @@ class Home extends Component {
     };
     this.onMiddleware = this.onMiddleware.bind(this);
     this.onPagination = this.onPagination.bind(this);
+    this.onViewFile = this.onViewFile.bind(this);
   }
-
   componentDidMount() {
     let { urlConnect, portConnect } = this.state;
     var socket = io(`${urlConnect + `:` + portConnect}`);
     socket.on("all", data => this.onAll(this, data));
     socket.on("list-pagination", data => this.onPagination(this, data));
     socket.on("middleware", data => this.onMiddleware(this, data));
+    socket.on("view-file", data => this.onViewFile(data));
   }
 
   /**
@@ -61,6 +62,10 @@ class Home extends Component {
   onPagination(Context, Data) {
     console.log("onPagination===>", Data);
     store.dispatch(changeItems(Data));
+  }
+
+  onViewFile(Data) {
+    console.log("onViewFile", Data);
   }
   render() {
     return (
