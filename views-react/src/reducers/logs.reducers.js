@@ -4,7 +4,6 @@ import InitialState from "../actions/InitialState";
 export default function logsReducer(state = InitialState.Logs, action) {
   switch (action.type) {
     case Actions.CL_LOGS:
-      console.log("ACTIONS CL LOGS", Actions.CL_LOGS);
       return {
         ...state,
         items: []
@@ -23,6 +22,11 @@ export default function logsReducer(state = InitialState.Logs, action) {
         ...state,
         items: action.items,
         page: action.page
+      };
+    case Actions.EMIT_FILE:
+      return {
+        ...state,
+        emitFile: true
       };
     default:
       return state;

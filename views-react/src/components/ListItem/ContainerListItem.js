@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import ListItem from "./ListItem";
-import { cleanListAction, emitPagination } from "../../actions";
+import { cleanListAction, emitPagination, onClickCode } from "../../actions";
 
 class ContainerListItem extends Component {
   render() {
@@ -15,6 +15,7 @@ class ContainerListItem extends Component {
         page={page}
         totalPages={totalPages}
         cleanList={() => this.props.cleanList()}
+        onClickCode={lineCode => this.props.onClickCode(lineCode)}
         selectedPage={pageSelected => this.props.selectedPage(pageSelected)}
       />
     );
@@ -51,6 +52,10 @@ const mapDispatchToProps = dispatch => {
     selectedPage(pageSelected) {
       console.log("================selectedPage================", pageSelected);
       dispatch(emitPagination(pageSelected));
+    },
+    onClickCode(lineCode) {
+      console.log("================lineCode================", lineCode);
+      dispatch(onClickCode(lineCode));
     }
   };
 };

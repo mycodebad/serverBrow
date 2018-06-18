@@ -17,7 +17,8 @@ class Item extends Component {
       line: this.props.line,
       nameFile: this.props.nameFile,
       content: this.props.content,
-      routeFile: this.props.routeFile
+      routeFile: this.props.routeFile,
+      lineComplete: this.props.lineComplete
     };
     this.renderIndividually = this.renderIndividually.bind(this);
     this.renderGrouped = this.renderGrouped.bind(this);
@@ -38,6 +39,12 @@ class Item extends Component {
     }
     if (nextprops.routeFile !== undefined && nextprops.routeFile !== null) {
       this.setState({ routeFile: nextprops.routeFile });
+    }
+    if (
+      nextprops.lineComplete !== undefined &&
+      nextprops.lineComplete !== null
+    ) {
+      this.setState({ lineComplete: nextprops.lineComplete });
     }
   }
 
@@ -64,14 +71,17 @@ class Item extends Component {
   }
 
   renderIndividually() {
-    let { type, line, nameFile, routeFile } = this.state;
+    let { type, line, nameFile, routeFile, lineComplete } = this.state;
     return (
       <div className="containerItem">
         <div className="item">
           <div className="row">
             <div className="col-2 date-holder text-center">
               <div className="icon">
-                <i className="fa fa-code" />
+                <i
+                  className="fa fa-code"
+                  onClick={() => this.props.onClickCode(lineComplete)}
+                />
               </div>
               <div className="date">
                 <span>{line}</span> <br />
@@ -120,7 +130,9 @@ Item.propTypes = {
   line: PropTypes.string,
   nameFile: PropTypes.string,
   content: PropTypes.string,
-  routeFile: PropTypes.string
+  routeFile: PropTypes.string,
+  lineComplete: PropTypes.string,
+  onClickCode: PropTypes.func
 };
 
 Item.defaultProps = {
