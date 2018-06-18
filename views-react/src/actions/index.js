@@ -2,6 +2,7 @@ import DataItem from "../utils/dataItem";
 import DataRequest from "../utils/dataRequest";
 import * as Actions from "./actionTypes";
 import io from "socket.io-client";
+import SocketUtil from "../utils/SocketUtil";
 import axios from "axios";
 const cleanListAction = items => {
   return {
@@ -78,10 +79,8 @@ const sendRequest = DataRequest => {
 };
 
 const onClickCode = LineCode => {
-  console.log("onClickCode+++>", LineCode);
   return async function(dispatch) {
-    var socket = io("http://localhost:8888");
-    await socket.emit("file", {
+    await SocketUtil._conection.emit("file", {
       line: LineCode
     });
     dispatch({

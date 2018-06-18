@@ -5,32 +5,31 @@
  */
 
 import React, { Component } from "react";
-import PropTypes from "prop-types";
-import io from "socket.io-client";
+import { changeItems, emitPagination, changeRequests } from "../../actions";
 import ContainerListItem from "../../components/ListItem/ContainerListItem";
 import ContainerList from "../../components/List/ContainerList";
 import Modal from "../../components/Modal/Modal";
+import SocketUtil from "../../utils/SocketUtil";
 import store from "../../store";
-import { changeItems, emitPagination, changeRequests } from "../../actions";
 import "./home.scss";
+
 class Home extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      urlConnect: this.props.urlConnect,
-      portConnect: this.props.portConnect
-    };
     this.onMiddleware = this.onMiddleware.bind(this);
     this.onPagination = this.onPagination.bind(this);
     this.onViewFile = this.onViewFile.bind(this);
   }
   componentDidMount() {
-    let { urlConnect, portConnect } = this.state;
-    var socket = io(`${urlConnect + `:` + portConnect}`);
-    socket.on("all", data => this.onAll(this, data));
-    socket.on("list-pagination", data => this.onPagination(this, data));
-    socket.on("middleware", data => this.onMiddleware(this, data));
-    socket.on("view-file", data => this.onViewFile(data));
+    SocketUtil._conection.on("all", data => this.onAll(this, data));
+    SocketUtil._conection.on("list-pagination", data =>
+      this.onPagination(this, data)
+    );
+    SocketUtil._conection.on("middleware", data =>
+      this.onMiddleware(this, data)
+    );
+
+    SocketUtil._conection.on("view-file", data => this.onViewFile(data));
   }
 
   /**
@@ -91,15 +90,5 @@ class Home extends Component {
     );
   }
 }
-
-Home.propTypes = {
-  urlConnect: PropTypes.string,
-  portConnect: PropTypes.number
-};
-
-Home.defaultProps = {
-  urlConnect: "http://localhost",
-  portConnect: 8888
-};
 
 export default Home;

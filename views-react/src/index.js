@@ -4,7 +4,6 @@ import registerServiceWorker from "./registerServiceWorker";
 import { Provider } from "react-redux";
 import store from "./store";
 import Root from "./containers/Root";
-// import "./utils/front";
 import "bootstrap/dist/css/bootstrap.css";
 import "./index.scss";
 
