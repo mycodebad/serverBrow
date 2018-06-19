@@ -2,7 +2,7 @@ import DataItem from "../utils/dataItem";
 import DataRequest from "../utils/dataRequest";
 import * as Actions from "./actionTypes";
 import SocketUtil from "../utils/SocketUtil";
-import axios from "axios";
+import ApiServices from "../utils/ApiServices";
 const cleanListAction = items => {
   return {
     type: Actions.CL_LOGS,
@@ -64,14 +64,11 @@ const changeRequests = Data => {
 };
 
 const sendRequest = DataRequest => {
-  return function(dispatch) {
-    axios({
-      method: DataRequest.method,
-      url: DataRequest.url,
-      responseType: "stream"
-    });
-    dispatch({
-      type: Actions.SEND_REQS // "SEND_REQUESTS"
+  return async function(dispatch) {
+    await ApiServices.SendRequest(DataRequest).then(res => {
+      dispatch({
+        type: Actions.SEND_REQS // "SEND_REQUESTS"
+      });
     });
   };
 };

@@ -1,41 +1,54 @@
 // import * as start from 'consoleBrow/index';
-var express = require('express');
+var express = require("express");
 
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
+var path = require("path");
+var favicon = require("serve-favicon");
+var logger = require("morgan");
+var cookieParser = require("cookie-parser");
+var bodyParser = require("body-parser");
 
-var index = require('./routes/index');
-var users = require('./routes/users');
+var index = require("./routes/index");
+var users = require("./routes/users");
 
-var consoleTest = require('./routes/test.console');
-
+var consoleTest = require("./routes/test.console");
+var cors = require("cors");
 
 var app = express();
-require('./consoleBrow/index')(app);
+require("./consoleBrow/index")(app);
 
+const corsOption = {
+  allowedHeaders: [
+    "Origin",
+    "X-Requested-With",
+    "Content-Type",
+    "Accept",
+    "X-Access-Token"
+  ],
+  credentials: true,
+  methods: "GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE",
+  origin: "http://localhost:3030",
+  preflightContinue: false
+};
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+app.set("views", path.join(__dirname, "views"));
+app.set("view engine", "ejs");
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger('dev'));
+app.use(logger("dev"));
 app.use(bodyParser.json());
+app.use(cors(corsOption));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, "public")));
 
-app.use('/', index);
-app.use('/users', users);
-app.use('/console', consoleTest);
-
+app.use("/", index);
+app.use("/users", users);
+app.use("/console", consoleTest);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {  
+app.use(function(req, res, next) {
   var err = new Error(`Route Not Found ${req.originalUrl}`);
   err.status = 404;
   next(err);

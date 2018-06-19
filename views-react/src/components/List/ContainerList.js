@@ -47,15 +47,12 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return {
     cleanList() {
-      console.log("======cleanList======");
       dispatch(cleanListRequest());
     },
     selectedPage(pageSelected) {
-      console.log("================selectedPage================", pageSelected);
       dispatch(emitPagination(pageSelected));
     },
     sendRequest(DataRequest) {
-      console.log("================sendRequest================", DataRequest);
       dispatch(sendRequest(DataRequest));
     }
   };

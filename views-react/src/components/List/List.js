@@ -97,7 +97,7 @@ class ListItem extends Component {
             <h3 className="h4">
               {title}{" "}
               <i
-                className="btn btn-danger fa fa-trash fright"
+                className="btn btn-danger fa fa-trash fright mL5 rounded-circle"
                 onClick={this.cleanList}
               />
             </h3>
