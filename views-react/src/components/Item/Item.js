@@ -77,7 +77,7 @@ class Item extends Component {
         <div className="item">
           <div className="row">
             <div className="col-2 date-holder text-center">
-              <div className="icon">
+              <div className="icon cPointer">
                 <i
                   className="fa fa-code"
                   onClick={() => this.props.onClickCode(lineComplete)}
