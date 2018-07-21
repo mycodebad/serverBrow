@@ -15,6 +15,12 @@ export default function requestsReducer(state = InitialState.Requests, action) {
       };
     case Actions.SEND_REQS:
       return state;
+    case Actions.NEW_REQS:
+      return {
+        ...state,
+        modalNewRequest: action.modalNewRequest,
+        contentHtml: action.contentHtml
+      };
     default:
       return state;
   }

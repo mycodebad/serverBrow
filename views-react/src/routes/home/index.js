@@ -1,5 +1,6 @@
 /**
- * @author  Guillermo David Paredes Torrez, https://github.com/GuillermoParedes
+ * @author  Guillermo David Paredes Torrez
+ * https://github.com/GuillermoParedes
  * @email  gdavid.ptorrez@gmail.com
  * @link    url goes here
  */
@@ -9,6 +10,7 @@ import { changeItems, emitPagination, changeRequests } from "../../actions";
 import ContainerListItem from "../../components/ListItem/ContainerListItem";
 import ContainerList from "../../components/List/ContainerList";
 import Modal from "../../components/Modal/Modal";
+import ContainerModal from "../../components/Modal/ContainerModal";
 import SocketUtil from "../../utils/SocketUtil";
 import store from "../../store";
 import "./home.scss";
@@ -77,6 +79,7 @@ class Home extends Component {
       <div className="containerHome">
         <div className="container-fluid">
           <Modal ref="ModalViewFile" />
+          <ContainerModal />
           <div className="row">
             <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
               <ContainerListItem ref="ListaConsolas" title={"Lista de Logs"} />

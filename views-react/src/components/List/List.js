@@ -17,6 +17,7 @@ class ListItem extends Component {
   constructor(props) {
     super(props);
     this.cleanList = this.cleanList.bind(this);
+    this.newRequest = this.newRequest.bind(this);
     this.onPageChange = this.onPageChange.bind(this);
     this.onPaginationChange = this.onPaginationChange.bind(this);
   }
@@ -63,6 +64,13 @@ class ListItem extends Component {
     }
   }
 
+  newRequest() {
+    console.log("NewRequest");
+    if (this.props.newRequest !== undefined) {
+      this.props.newRequest();
+    }
+  }
+
   /**
    * @description Event on change page
    * @param {*} Context
@@ -100,6 +108,10 @@ class ListItem extends Component {
                 className="btn btn-danger fa fa-trash fright mL5 rounded-circle"
                 onClick={this.cleanList}
               />
+              <i
+                className="btn btn-success fa fa-plus fright mL5 rounded-circle"
+                onClick={this.newRequest}
+              />
             </h3>
           </div>
           <div className="card-body no-padding">
@@ -133,7 +145,8 @@ ListItem.propTypes = {
   textPrevious: PropTypes.string,
   textNext: PropTypes.string,
   cleanList: PropTypes.func,
-  selectedPage: PropTypes.func
+  selectedPage: PropTypes.func,
+  newRequest: PropTypes.func
 };
 
 ListItem.defaultProps = {

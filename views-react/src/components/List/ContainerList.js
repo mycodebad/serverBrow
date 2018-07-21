@@ -2,7 +2,12 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import List from "./List";
-import { cleanListRequest, emitPagination, sendRequest } from "../../actions";
+import {
+  cleanListRequest,
+  emitPagination,
+  sendRequest,
+  toggleModal
+} from "../../actions";
 
 class ContainerList extends Component {
   render() {
@@ -15,6 +20,7 @@ class ContainerList extends Component {
         page={page}
         totalPages={totalPages}
         cleanList={() => this.props.cleanList()}
+        newRequest={() => this.props.newRequest()}
         sendRequest={DataRequest => this.props.sendRequest(DataRequest)}
         selectedPage={pageSelected => this.props.selectedPage(pageSelected)}
       />
@@ -54,6 +60,9 @@ const mapDispatchToProps = dispatch => {
     },
     sendRequest(DataRequest) {
       dispatch(sendRequest(DataRequest));
+    },
+    newRequest() {
+      dispatch(toggleModal(true));
     }
   };
 };

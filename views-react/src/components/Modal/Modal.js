@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import $ from "jquery";
 import {
   Button,
   Modal as ModalTrap,
@@ -18,11 +19,43 @@ class Modal extends Component {
       contentJson: this.props.contentJson
     };
     this.toggle = this.toggle.bind(this);
+    this.sendRequest = this.sendRequest.bind(this);
+  }
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.openModal !== undefined && nextProps.openModal !== null) {
+      this.setState({ openModal: nextProps.openModal });
+    }
+    if (nextProps.contentHtml !== undefined && nextProps.contentHtml !== null) {
+      this.setState({ contentHtml: nextProps.contentHtml });
+    }
+    if (nextProps.contentJson !== undefined && nextProps.contentJson !== null) {
+      this.setState({ contentJson: nextProps.contentJson });
+    }
   }
   toggle() {
+    console.log("Toggle Open Modal");
     this.setState({
       openModal: !this.state.openModal
     });
+    if (this.props.toggleModal !== undefined) {
+      this.props.toggleModal(!this.state.openModal);
+    }
+  }
+  sendRequest() {
+    var methodNewReq = $("#InputProtocolo").val();
+    var urlNewReq = $("#InputUrl").val();
+    var bodyNewReq = $("#InputBody").val();
+    if (this.props.sendNewRequest !== undefined) {
+      this.props.sendNewRequest({
+        method: methodNewReq,
+        url: urlNewReq,
+        request: {
+          body: bodyNewReq,
+          params: null,
+          query: null
+        }
+      });
+    }
   }
   render() {
     return (
@@ -37,6 +70,12 @@ class Modal extends Component {
             <div dangerouslySetInnerHTML={{ __html: this.state.contentHtml }} />
           </ModalBody>
           <ModalFooter>
+            <Button color="primary" onClick={this.sendRequest}>
+              Send Request
+              <span>
+                <i className="fa fa-send mL5 rounded-circle" />
+              </span>
+            </Button>
             <Button color="secondary" onClick={this.toggle}>
               Cerrar Modal
             </Button>
@@ -56,7 +95,8 @@ Modal.defaultProps = {
 Modal.propTypes = {
   openModal: PropTypes.bool,
   contentHtml: PropTypes.string,
-  contentJson: PropTypes.object
+  contentJson: PropTypes.object,
+  sendNewRequest: PropTypes.func
 };
 
 export default Modal;

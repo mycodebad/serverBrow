@@ -5,7 +5,6 @@ import "rc-collapse/assets/index.css";
 import ReactJson from "react-json-view";
 class Request extends Component {
   sendRequest() {
-    console.log("sendRequest REQUEST CP");
     if (
       this.props.sendRequest !== undefined &&
       this.props.sendRequest !== null
@@ -33,21 +32,33 @@ class Request extends Component {
     let btnStatus = this.swRequest(this.status);
     return (
       <div className="containerRequest">
-        <div className="alert alert-light border border-primary" role="alert">
-          <button
-            type="button"
-            className="btn btn-primary float-right mL5"
-            onClick={() => this.sendRequest()}
-          >
-            Enviar
-          </button>
-          <span className="btn btn-primary float-right mL5">{method}</span>
-          <span className={"btn float-right mL5 " + btnStatus}>{status}</span>
-          <Collapse accordion={true}>
-            <Panel header={url} headerClass="my-header-class">
-              <ReactJson src={this.props} />
-            </Panel>
-          </Collapse>
+        <div className="alert alert-light" role="alert">
+          <div className="container">
+            <div className="row  border border-primary">
+              <div className="col-12 col-md-6">
+                <Collapse accordion={true}>
+                  <Panel header={url} headerClass="my-header-class">
+                    <ReactJson src={this.props} />
+                  </Panel>
+                </Collapse>
+              </div>
+              <div className="col-12 col-md-6">
+                <button
+                  type="button"
+                  className="btn btn-primary float-right mL5"
+                  onClick={() => this.sendRequest()}
+                >
+                  Enviar
+                </button>
+                <span className="btn btn-primary float-right mL5">
+                  {method}
+                </span>
+                <span className={"btn float-right mL5 " + btnStatus}>
+                  {status}
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
