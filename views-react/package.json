@@ -102,6 +102,6 @@
   "devDependencies": {
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
-    "serve": "^6.4.8"
+    "serve": "^11.3.2"
   }
 }
